@@ -1,0 +1,8 @@
+{
+  "name": "marketing",
+  "version": "1.2.0",
+  "description": "สร้างเนื้อหา วางแผน campaign และวิเคราะห์ผลการทำงานทุก marketing channel รักษาความสม่ำเสมอของ brand voice ติดตามคู่แข่ง และรายงานสิ่งที่ได้ผล",
+  "author": {
+    "name": "Anthropic"
+  }
+}

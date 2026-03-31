@@ -1,0 +1,8 @@
+{
+  "name": "legal",
+  "version": "1.2.0",
+  "description": "เร่งความเร็วการตรวจสอบสัญญา NDA triage และ compliance workflow สำหรับทีม legal ภายในองค์กร ร่าง legal brief จัดระเบียบการวิจัย precedent และจัดการความรู้ขององค์กร",
+  "author": {
+    "name": "Anthropic"
+  }
+}

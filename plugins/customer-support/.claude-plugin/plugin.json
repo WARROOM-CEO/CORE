@@ -1,0 +1,8 @@
+{
+  "name": "customer-support",
+  "version": "1.2.0",
+  "description": "Triage tickets, ร่าง responses, escalate ปัญหา และสร้าง knowledge base วิจัย customer context และแปลงปัญหาที่แก้แล้วให้เป็น self-service content",
+  "author": {
+    "name": "Anthropic"
+  }
+}

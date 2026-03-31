@@ -1,0 +1,8 @@
+{
+  "name": "human-resources",
+  "version": "1.2.0",
+  "description": "เร่งกระบวนการ people operations — สรรหาบุคลากร onboarding ประเมินผลการทำงาน วิเคราะห์ค่าตอบแทน และให้คำแนะนำด้านนโยบาย ดูแล compliance และรักษาทีมงานให้ทำงานได้อย่างราบรื่น",
+  "author": {
+    "name": "Anthropic"
+  }
+}

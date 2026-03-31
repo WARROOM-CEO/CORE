@@ -1,0 +1,246 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "warroom-ceo",
+  "description": "WARROOM-CEO's collection of Cowork plugins — Thai-localized tools for building, customizing, and managing Claude plugins",
+  "owner": {
+    "name": "WARROOM-CEO",
+    "email": "poramate@minsiri.com"
+  },
+  "plugins": [
+    {
+      "name": "cowork-plugin-management-th",
+      "source": "./plugins/cowork-plugin-management",
+      "description": "สร้าง ปรับแต่ง และจัดการปลั๊กอิน Cowork เป็นภาษาไทย — Thai-localized plugin management for Cowork",
+      "version": "0.2.2",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/cowork-plugin-management",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "productivity",
+      "tags": ["thai", "cowork", "plugin-management", "localization"]
+    },
+    {
+      "name": "customer-support",
+      "source": "./plugins/customer-support",
+      "description": "Triage tickets, ร่าง responses, escalate ปัญหา และสร้าง knowledge base วิจัย customer context และแปลงปัญหาที่แก้แล้วให้เป็น self-service content",
+      "version": "1.2.0",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/customer-support",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "customer-support",
+      "tags": ["thai", "customer-support", "localization"]
+    },
+    {
+      "name": "data",
+      "source": "./plugins/data",
+      "description": "เขียน SQL, explore datasets และสร้าง insights ได้เร็วขึ้น สร้าง visualizations และ dashboards แปลงข้อมูล raw ให้เป็นเรื่องราวที่ชัดเจนสำหรับผู้มีส่วนได้ส่วนเสีย",
+      "version": "1.1.0",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/data",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "data",
+      "tags": ["thai", "data", "localization"]
+    },
+    {
+      "name": "design",
+      "source": "./plugins/design",
+      "description": "เร่ง design workflows — critique, design system management, UX writing, accessibility audits, research synthesis และ dev handoff ตั้งแต่ exploration จนถึง pixel-perfect specs",
+      "version": "1.2.0",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/design",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "design",
+      "tags": ["thai", "design", "localization"]
+    },
+    {
+      "name": "engineering",
+      "source": "./plugins/engineering",
+      "description": "Streamline engineering workflows — standups, code review, architecture decisions, incident response, and technical documentation. Works with your existing tools or standalone.",
+      "version": "1.2.0",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/engineering",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "engineering",
+      "tags": ["thai", "engineering", "localization"]
+    },
+    {
+      "name": "example-plugin",
+      "source": "./plugins/example-plugin",
+      "description": "A comprehensive reference plugin demonstrating all Claude Code extension options: skills, commands, agents, hooks, and MCP servers",
+      "author": {
+        "name": "Anthropic",
+        "email": "support@anthropic.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/example-plugin",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "development",
+      "tags": ["example", "reference", "template", "development"]
+    },
+    {
+      "name": "finance",
+      "source": "./plugins/finance",
+      "description": "เร่งกระบวนการ finance และ accounting — ตั้งแต่ journal entries และ reconciliation ไปถึง financial statements และ variance analysis เพิ่มความเร็วในการเตรียม audit, month-end close และรักษาความถูกต้องของบัญชี",
+      "version": "1.2.0",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/finance",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "finance",
+      "tags": ["thai", "finance", "localization"]
+    },
+    {
+      "name": "frontend-design",
+      "source": "./plugins/frontend-design",
+      "description": "Frontend design skill for UI/UX implementation",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/frontend-design",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "design",
+      "tags": ["thai", "frontend", "design", "localization"]
+    },
+    {
+      "name": "human-resources",
+      "source": "./plugins/human-resources",
+      "description": "เร่งกระบวนการ people operations — สรรหาบุคลากร onboarding ประเมินผลการทำงาน วิเคราะห์ค่าตอบแทน และให้คำแนะนำด้านนโยบาย ดูแล compliance และรักษาทีมงานให้ทำงานได้อย่างราบรื่น",
+      "version": "1.2.0",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/human-resources",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "human-resources",
+      "tags": ["thai", "hr", "localization"]
+    },
+    {
+      "name": "legal",
+      "source": "./plugins/legal",
+      "description": "Legal workflow automation — contract review, compliance checks, risk assessment, and legal briefing with Thai localization",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/legal",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "legal",
+      "tags": ["thai", "legal", "localization"]
+    },
+    {
+      "name": "marketing",
+      "source": "./plugins/marketing",
+      "description": "Thai-localized marketing workflows — campaign planning, content creation, competitive analysis, and performance reporting",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/marketing",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "marketing",
+      "tags": ["thai", "marketing", "localization"]
+    },
+    {
+      "name": "pdf-viewer",
+      "source": "./plugins/pdf-viewer",
+      "description": "ดู อธิบายประกอบ และเซ็นชื่อ PDF ในตัวแสดงผลแบบโต้ตอบสด ทำเครื่องหมายสัญญา กรอกแบบฟอร์มพร้อม visual feedback ประทับตราอนุมัติ และวางลายเซ็น — จากนั้น download สำเนาที่มีการอธิบายประกอบ",
+      "version": "0.2.0",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/pdf-viewer",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "document-processing",
+      "tags": ["thai", "pdf", "localization"]
+    },
+    {
+      "name": "product-management",
+      "source": "./plugins/product-management",
+      "description": "เขียน feature specs, วางแผน roadmap และสังเคราะห์ user research ได้เร็วขึ้น อัปเดตผู้มีส่วนได้ส่วนเสียและติดตาม competitive landscape อย่างมีประสิทธิภาพ",
+      "version": "1.2.0",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/product-management",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "product-management",
+      "tags": ["thai", "product", "localization"]
+    },
+    {
+      "name": "productivity",
+      "source": "./plugins/productivity",
+      "description": "จัดการงาน วางแผนวัน และสร้าง memory จากบริบทสำคัญในการทำงาน เชื่อมต่อกับปฏิทิน อีเมล และแชทเพื่อให้ทุกอย่างเป็นระเบียบและตรงเวลา",
+      "version": "1.2.0",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/productivity",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "productivity",
+      "tags": ["thai", "productivity", "localization"]
+    },
+    {
+      "name": "sales",
+      "source": "./plugins/sales",
+      "description": "ค้นหา prospect, สร้าง outreach และวางกลยุทธ์ดีลได้เร็วขึ้น เตรียมตัวก่อน call, จัดการ pipeline และเขียนข้อความที่ personalize เพื่อขับเคลื่อนดีลให้ก้าวหน้า",
+      "version": "1.2.0",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/sales",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "sales",
+      "tags": ["thai", "sales", "localization"]
+    },
+    {
+      "name": "skill-creator",
+      "source": "./plugins/skill-creator",
+      "description": "สร้าง Skill ใหม่, ปรับปรุง Skill ที่มีอยู่, และวัดประสิทธิภาพ Skill พร้อม Localization ภาษาไทย",
+      "author": {
+        "name": "WARROOM-CEO",
+        "email": "poramate@minsiri.com"
+      },
+      "homepage": "https://github.com/WARROOM-CEO/CORE/tree/main/plugins/skill-creator",
+      "repository": "https://github.com/WARROOM-CEO/CORE",
+      "license": "Apache-2.0",
+      "category": "development",
+      "tags": ["thai", "skill-creator", "localization"]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "sales",
+  "version": "1.2.0",
+  "description": "ค้นหา prospect, สร้าง outreach และวางกลยุทธ์ดีลได้เร็วขึ้น เตรียมตัวก่อน call, จัดการ pipeline และเขียนข้อความที่ personalize เพื่อขับเคลื่อนดีลให้ก้าวหน้า",
+  "author": {
+    "name": "Anthropic"
+  }
+}

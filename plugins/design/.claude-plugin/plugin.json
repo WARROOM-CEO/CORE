@@ -1,0 +1,8 @@
+{
+  "name": "design",
+  "version": "1.2.0",
+  "description": "เร่ง design workflows — critique, design system management, UX writing, accessibility audits, research synthesis และ dev handoff ตั้งแต่ exploration จนถึง pixel-perfect specs",
+  "author": {
+    "name": "Anthropic"
+  }
+}

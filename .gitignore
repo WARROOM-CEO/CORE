@@ -1,0 +1,9 @@
+# Claude working memory — local only, do not push to GitHub
+CLAUDE.md
+memory/
+
+# Plugin output files
+*.plugin
+
+# macOS
+.DS_Store

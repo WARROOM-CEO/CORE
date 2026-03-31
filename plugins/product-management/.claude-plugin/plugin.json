@@ -1,0 +1,8 @@
+{
+  "name": "product-management",
+  "version": "1.2.0",
+  "description": "เขียน feature specs, วางแผน roadmap และสังเคราะห์ user research ได้เร็วขึ้น อัปเดตผู้มีส่วนได้ส่วนเสียและติดตาม competitive landscape อย่างมีประสิทธิภาพ",
+  "author": {
+    "name": "Anthropic"
+  }
+}
