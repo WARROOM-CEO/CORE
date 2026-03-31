@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "cowork-plugin-management-th",
+      "name": "cowork-plugin-management",
       "source": "./plugins/cowork-plugin-management",
       "description": "สร้าง ปรับแต่ง และจัดการปลั๊กอิน Cowork เป็นภาษาไทย — Thai-localized plugin management for Cowork",
       "version": "0.2.2",
@@ -25,7 +25,7 @@
     {
       "name": "customer-support",
       "source": "./plugins/customer-support",
-      "description": "Triage tickets, ร่าง responses, escalate ปัญหา และสร้าง knowledge base วิจัย customer context และแปลงปัญหาที่แก้แล้วให้เป็น self-service content",
+      "description": "จัดการงานบริการลูกค้าแบบครบวงจร ตั้งแต่การคัดแยกและจัดลำดับความสำคัญของ ticket (triage), การร่างคำตอบให้ลูกค้า, การยกระดับเคสที่ซับซ้อน (escalation) ไปจนถึงการสรุปและต่อยอดเป็นคลังความรู้ (knowledge base)",
       "version": "1.2.0",
       "author": {
         "name": "WARROOM-CEO",
@@ -40,7 +40,7 @@
     {
       "name": "data",
       "source": "./plugins/data",
-      "description": "เขียน SQL, explore datasets และสร้าง insights ได้เร็วขึ้น สร้าง visualizations และ dashboards แปลงข้อมูล raw ให้เป็นเรื่องราวที่ชัดเจนสำหรับผู้มีส่วนได้ส่วนเสีย",
+      "description": "เขียนคำสั่ง SQL, สำรวจชุดข้อมูล และสร้างข้อมูลเชิงลึกได้เร็วขึ้น สร้างภาพแสดงผลและแผงควบคุม แปลงข้อมูลดิบให้เป็นเรื่องราวที่ชัดเจนสำหรับผู้มีส่วนได้ส่วนเสีย",
       "version": "1.1.0",
       "author": {
         "name": "WARROOM-CEO",
@@ -55,7 +55,7 @@
     {
       "name": "design",
       "source": "./plugins/design",
-      "description": "เร่ง design workflows — critique, design system management, UX writing, accessibility audits, research synthesis และ dev handoff ตั้งแต่ exploration จนถึง pixel-perfect specs",
+      "description": "เร่งออกแบบเวิร์กโฟลว์การทำงานด้าน UX/UI ให้ครอบคลุมตั้งแต่ต้นจนจบ ไม่ว่าจะเป็นการวิจารณ์งาน (critique), การจัดการ design system, การเขียน UX writing, การตรวจสอบด้าน accessibility, การสังเคราะห์งานวิจัย (research synthesis) ไปจนถึงการส่งมอบงานให้ทีมพัฒนา (dev handoff) ตั้งแต่ช่วง exploration จนถึงการกำหนดสเปกระดับ pixel-perfect",
       "version": "1.2.0",
       "author": {
         "name": "WARROOM-CEO",
@@ -70,7 +70,7 @@
     {
       "name": "engineering",
       "source": "./plugins/engineering",
-      "description": "Streamline engineering workflows — standups, code review, architecture decisions, incident response, and technical documentation. Works with your existing tools or standalone.",
+      "description": "ยกระดับการทำงานของทีมวิศวกรรมให้เป็นระบบและมีประสิทธิภาพ ครอบคลุมตั้งแต่ daily standups, code review, การตัดสินใจด้านสถาปัตยกรรม (architecture), การรับมือ incident ไปจนถึงการจัดทำเอกสารทางเทคนิค รองรับทั้งการเชื่อมต่อกับเครื่องมือที่ใช้อยู่เดิม หรือใช้งานแบบ standalone",
       "version": "1.2.0",
       "author": {
         "name": "WARROOM-CEO",
@@ -85,7 +85,7 @@
     {
       "name": "example-plugin",
       "source": "./plugins/example-plugin",
-      "description": "A comprehensive reference plugin demonstrating all Claude Code extension options: skills, commands, agents, hooks, and MCP servers",
+      "description": "ตัวอย่างอ้างอิงแบบครบทุกความสามารถของ Claude Code ที่แสดงภาพรวมการพัฒนา plugin อย่างครบถ้วน ทั้ง skills, commands, agents, hooks และ MCP servers เหมาะสำหรับใช้เป็นต้นแบบในการต่อยอดและพัฒนาใช้งานจริง",
       "author": {
         "name": "Anthropic",
         "email": "support@anthropic.com"
@@ -99,7 +99,7 @@
     {
       "name": "finance",
       "source": "./plugins/finance",
-      "description": "เร่งกระบวนการ finance และ accounting — ตั้งแต่ journal entries และ reconciliation ไปถึง financial statements และ variance analysis เพิ่มความเร็วในการเตรียม audit, month-end close และรักษาความถูกต้องของบัญชี",
+      "description": "เร่งกระบวนการด้านการเงินและบัญชีให้รวดเร็วและแม่นยำ ตั้งแต่การบันทึกบัญชี (journal entries), การกระทบยอด (reconciliation) ไปจนถึงการจัดทำงบการเงิน (financial statements) และการวิเคราะห์ความแตกต่าง (variance analysis) ช่วยให้การปิดงบและการเตรียม audit มีประสิทธิภาพมากขึ้น",
       "version": "1.2.0",
       "author": {
         "name": "WARROOM-CEO",
@@ -114,7 +114,7 @@
     {
       "name": "frontend-design",
       "source": "./plugins/frontend-design",
-      "description": "Frontend design skill for UI/UX implementation",
+      "description": "สกิลสำหรับการออกแบบหน้าเว็บเพื่อการนำไปใช้งานจริง",
       "author": {
         "name": "WARROOM-CEO",
         "email": "poramate@minsiri.com"
@@ -128,7 +128,7 @@
     {
       "name": "human-resources",
       "source": "./plugins/human-resources",
-      "description": "เร่งกระบวนการ people operations — สรรหาบุคลากร onboarding ประเมินผลการทำงาน วิเคราะห์ค่าตอบแทน และให้คำแนะนำด้านนโยบาย ดูแล compliance และรักษาทีมงานให้ทำงานได้อย่างราบรื่น",
+      "description": "ขับเคลื่อนงานบริหารบุคคลแบบครบวงจร ตั้งแต่การสรรหา (recruitment), onboarding, การประเมินผลการทำงาน, การวิเคราะห์ค่าตอบแทน ไปจนถึงการให้คำแนะนำด้านนโยบายองค์กร ช่วยดูแล compliance และเสริมให้ทีมทำงานได้อย่างราบรื่น",
       "version": "1.2.0",
       "author": {
         "name": "WARROOM-CEO",
@@ -143,7 +143,8 @@
     {
       "name": "legal",
       "source": "./plugins/legal",
-      "description": "Legal workflow automation — contract review, compliance checks, risk assessment, and legal briefing with Thai localization",
+      "description": "จัดการงานด้านกฎหมายอย่างเป็นระบบ ครอบคลุมการตรวจสอบสัญญา (contract review), การเช็ค compliance, การประเมินความเสี่ยง (risk assessment) และการสรุปประเด็นทางกฎหมาย พร้อมปรับให้เหมาะกับบริบทกฎหมายไทย",
+      "version": "1.2.0",
       "author": {
         "name": "WARROOM-CEO",
         "email": "poramate@minsiri.com"
@@ -157,7 +158,8 @@
     {
       "name": "marketing",
       "source": "./plugins/marketing",
-      "description": "Thai-localized marketing workflows — campaign planning, content creation, competitive analysis, and performance reporting",
+      "description": "ยกระดับการทำการตลาดด้วยเวิร์กโฟลว์ที่ปรับให้เข้ากับบริบทไทย ครอบคลุมการวางแผนแคมเปญ (campaign planning), การสร้างคอนเทนต์ (content creation), การวิเคราะห์คู่แข่ง (competitive analysis) และการรายงานผล (performance reporting) เพื่อให้ตัดสินใจได้แม่นยำและขับเคลื่อนผลลัพธ์ได้จริง",
+      "version": "1.2.0",
       "author": {
         "name": "WARROOM-CEO",
         "email": "poramate@minsiri.com"
@@ -171,7 +173,7 @@
     {
       "name": "pdf-viewer",
       "source": "./plugins/pdf-viewer",
-      "description": "ดู อธิบายประกอบ และเซ็นชื่อ PDF ในตัวแสดงผลแบบโต้ตอบสด ทำเครื่องหมายสัญญา กรอกแบบฟอร์มพร้อม visual feedback ประทับตราอนุมัติ และวางลายเซ็น — จากนั้น download สำเนาที่มีการอธิบายประกอบ",
+      "description": "ดู อธิบายประกอบ และลงลายเซ็นบนเอกสาร PDF ในตัวแสดงผลแบบโต้ตอบได้ทันที ทำเครื่องหมายสัญญา กรอกแบบฟอร์มพร้อมข้อเสนอแนะแบบเห็นภาพ ประทับตราอนุมัติ และวางลายเซ็น — จากนั้นดาวน์โหลดสำเนาที่มีการอธิบายประกอบ",
       "version": "0.2.0",
       "author": {
         "name": "WARROOM-CEO",
@@ -186,7 +188,7 @@
     {
       "name": "product-management",
       "source": "./plugins/product-management",
-      "description": "เขียน feature specs, วางแผน roadmap และสังเคราะห์ user research ได้เร็วขึ้น อัปเดตผู้มีส่วนได้ส่วนเสียและติดตาม competitive landscape อย่างมีประสิทธิภาพ",
+      "description": "เขียนข้อกำหนดคุณสมบัติ, วางแผนแผนงาน และสังเคราะห์ผลการวิจัยผู้ใช้ได้เร็วขึ้น อัปเดตผู้มีส่วนได้ส่วนเสียและติดตามสถานการณ์คู่แข่งอย่างมีประสิทธิภาพ",
       "version": "1.2.0",
       "author": {
         "name": "WARROOM-CEO",
@@ -216,7 +218,7 @@
     {
       "name": "sales",
       "source": "./plugins/sales",
-      "description": "ค้นหา prospect, สร้าง outreach และวางกลยุทธ์ดีลได้เร็วขึ้น เตรียมตัวก่อน call, จัดการ pipeline และเขียนข้อความที่ personalize เพื่อขับเคลื่อนดีลให้ก้าวหน้า",
+      "description": "ค้นหาลูกค้าเป้าหมาย, สร้างการติดต่อ และวางกลยุทธ์ดีลได้เร็วขึ้น เตรียมตัวก่อนการโทร, จัดการกระบวนการขาย และเขียนข้อความที่ปรับแต่งเฉพาะบุคคลเพื่อขับเคลื่อนดีลให้ก้าวหน้า",
       "version": "1.2.0",
       "author": {
         "name": "WARROOM-CEO",
@@ -231,7 +233,7 @@
     {
       "name": "skill-creator",
       "source": "./plugins/skill-creator",
-      "description": "สร้าง Skill ใหม่, ปรับปรุง Skill ที่มีอยู่, และวัดประสิทธิภาพ Skill พร้อม Localization ภาษาไทย",
+      "description": "สร้างสกิลส์ใหม่, ปรับปรุงสกิลส์ที่มีอยู่, และวัดประสิทธิภาพสกิลส์พร้อมแปลเป็นภาษาไทย",
       "author": {
         "name": "WARROOM-CEO",
         "email": "poramate@minsiri.com"

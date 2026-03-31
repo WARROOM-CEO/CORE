@@ -1,6 +1,6 @@
 {
   "name": "example-plugin",
-  "description": "ปลั๊กอินตัวอย่างที่แสดงรูปแบบปลั๊กอิน Claude ทุกประเภท ได้แก่ สกิลส์ และคำสั่ง พร้อมแปลเป็นภาษาไทย",
+  "description": "ตัวอย่างอ้างอิงแบบครบทุกความสามารถของ Claude Code ที่แสดงภาพรวมการพัฒนา plugin อย่างครบถ้วน ทั้ง skills, commands, agents, hooks และ MCP servers เหมาะสำหรับใช้เป็นต้นแบบในการต่อยอดและพัฒนาใช้งานจริง",
   "author": {
     "name": "WARROOM-CEO",
     "email": "poramate@minsiri.com"
