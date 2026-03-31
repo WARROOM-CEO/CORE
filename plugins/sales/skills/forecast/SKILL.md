@@ -1,12 +1,12 @@
 ---
-name: forecast
+name: forecast-th
 description: สร้าง sales forecast แบบ weighted พร้อม best/likely/worst scenarios, แยก commit vs. upside และ gap analysis ใช้เมื่อเตรียม quarterly forecast, ประเมิน gap-to-quota จาก pipeline CSV หรือตรวจสอบ pipeline coverage เทียบกับ quota
 argument-hint: "<period>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /forecast
+# /forecast-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -90,7 +90,7 @@ BigCo - $100K - Discovery - closes Mar 30
 # Sales Forecast: [Period]
 
 **Generated:** [Date]
-**Data Source:** [CSV upload / Manual input / CRM]
+**Data Source:** [CSV upload / Manual input /-th CRM]
 
 ---
 
@@ -188,11 +188,11 @@ If you don't provide custom probabilities, I'll use:
 | Stage | Default Probability |
 |-------|---------------------|
 | Closed Won | 100% |
-| Negotiation / Contract | 80% |
-| Proposal / Quote | 60% |
-| Evaluation / Demo | 40% |
-| Discovery / Qualification | 20% |
-| Prospecting / Lead | 10% |
+| Negotiation / Contract | 80%-th |
+| Proposal / Quote | 60%-th |
+| Evaluation / Demo | 40%-th |
+| Discovery / Qualification | 20%-th |
+| Prospecting / Lead | 10%-th |
 
 Tell me if your stages or probabilities are different.
 

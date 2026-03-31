@@ -1,5 +1,5 @@
 ---
-name: org-planning
+name: org-planning-th
 description: วางแผน headcount ออกแบบองค์กร และ optimize โครงสร้างทีม เรียกใช้เมื่อพูดถึง "org planning", "headcount plan", "team structure", "reorg", "ควรจ้างใครต่อไป" หรือคิดเรื่องขนาดทีมและ reporting structure
 ---
 

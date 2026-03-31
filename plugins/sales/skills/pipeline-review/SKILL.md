@@ -1,12 +1,12 @@
 ---
-name: pipeline-review
+name: pipeline-review-th
 description: วิเคราะห์สุขภาพ pipeline — จัดลำดับความสำคัญดีล, แจ้งเตือนความเสี่ยง และรับแผนงานรายสัปดาห์ ใช้เมื่อทำ weekly pipeline review, เลือกดีลที่จะโฟกัสสัปดาห์นี้ หรือตรวจจับดีลที่ค้างหรือมีปัญหา
 argument-hint: "<segment or rep>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /pipeline-review
+# /pipeline-review-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -79,7 +79,7 @@ BigCo - $100K - Discovery - closes Mar 30 - created last week
 ```markdown
 # Pipeline Review: [Date]
 
-**Data Source:** [CSV upload / Manual input / CRM]
+**Data Source:** [CSV upload / Manual input /-th CRM]
 **Deals Analyzed:** [X]
 **Total Pipeline Value:** $[X]
 
@@ -89,10 +89,10 @@ BigCo - $100K - Discovery - closes Mar 30 - created last week
 
 | Dimension | Score | Issue |
 |-----------|-------|-------|
-| **Stage Progression** | [X]/25 | [X] deals stuck in same stage 30+ days |
-| **Activity Recency** | [X]/25 | [X] deals with no activity in 14+ days |
-| **Close Date Accuracy** | [X]/25 | [X] deals with close date in past |
-| **Contact Coverage** | [X]/25 | [X] deals single-threaded |
+| **Stage Progression** | [X]/25 | [X] deals stuck in same stage 30+ days-th |
+| **Activity Recency** | [X]/25 | [X] deals with no activity in 14+ days-th |
+| **Close Date Accuracy** | [X]/25 | [X] deals with close date in past-th |
+| **Contact Coverage** | [X]/25 | [X] deals single-threaded-th |
 
 ---
 
@@ -137,17 +137,17 @@ BigCo - $100K - Discovery - closes Mar 30 - created last week
 ### Stale Deals (No Activity 14+ Days)
 | Deal | Amount | Last Activity | Days Silent | Recommendation |
 |------|--------|---------------|-------------|----------------|
-| [Deal] | $[X] | [Date] | [X] | [Re-engage / Downgrade / Remove] |
+| [Deal] | $[X] | [Date] | [X] | [Re-engage / Downgrade / Remove]-th |
 
 ### Stuck Deals (Same Stage 30+ Days)
 | Deal | Amount | Stage | Days in Stage | Recommendation |
 |------|--------|-------|---------------|----------------|
-| [Deal] | $[X] | [Stage] | [X] | [Push / Multi-thread / Qualify out] |
+| [Deal] | $[X] | [Stage] | [X] | [Push / Multi-thread / Qualify out]-th |
 
 ### Past Close Date
 | Deal | Amount | Close Date | Days Overdue | Recommendation |
 |------|--------|------------|--------------|----------------|
-| [Deal] | $[X] | [Date] | [X] | [Update date / Push to next quarter / Close lost] |
+| [Deal] | $[X] | [Date] | [X] | [Update date / Push to next quarter / Close lost]-th |
 
 ### Single-Threaded (Only One Contact)
 | Deal | Amount | Contact | Risk | Recommendation |

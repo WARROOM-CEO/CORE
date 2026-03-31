@@ -1,5 +1,5 @@
 ---
-name: variance-analysis
+name: variance-analysis-th
 description: แยกวิเคราะห์ financial variances ตาม drivers พร้อมคำอธิบาย narrative และ waterfall analysis ใช้เมื่อวิเคราะห์ budget vs. actual, period-over-period changes, revenue/expense variances หรือเตรียม variance commentary สำหรับผู้บริหาร
 argument-hint: "<line item> <period> vs <comparison>"
 ---
@@ -14,7 +14,7 @@ Techniques for decomposing variances, materiality thresholds, narrative generati
 
 ## Variance Decomposition Techniques
 
-### Price / Volume Decomposition
+### Price / Volume-th Decomposition
 
 The most fundamental variance decomposition. Used for revenue, cost of goods, and any metric that can be expressed as Price x Volume.
 
@@ -45,7 +45,7 @@ Mix Effect    = Budget Price x Budget Volume x (Actual Mix - Budget Mix)
   - Price effect: -$2 x 11,000 units = -$22,000 (unfavorable — lower ASP)
   - Net: +$28,000
 
-### Rate / Mix Decomposition
+### Rate / Mix-th Decomposition
 
 Used when analyzing blended rates across segments with different unit economics.
 
@@ -61,7 +61,7 @@ Mix Effect  = Sum of (Budget Rate_i x (Actual Volume_i - Expected Volume_i at Bu
 - Actual mix: 40% A, 60% B → Blended margin 48%
 - Mix effect explains 2pp of margin compression
 
-### Headcount / Compensation Decomposition
+### Headcount / Compensation-th Decomposition
 
 Used for analyzing payroll and people-cost variances.
 
@@ -88,8 +88,8 @@ Decompose by:
 2. Volume-driven costs       (hosting, transaction fees, commissions, shipping)
 3. Discretionary spend       (travel, events, professional services, marketing programs)
 4. Contractual/fixed costs   (rent, insurance, software licenses, subscriptions)
-5. One-time / non-recurring  (severance, legal settlements, write-offs, project costs)
-6. Timing / phasing          (spend shifted between periods vs plan)
+5. One-time / non-recurring  (severance, legal settlements, write-offs, project-th costs)
+6. Timing / phasing          (spend shifted between periods vs-th plan)
 ```
 
 ## Materiality Thresholds and Investigation Triggers
@@ -136,8 +136,8 @@ Driver: [Primary driver description]
 [2-3 sentences explaining the business reason for the variance, with specific
 quantification of contributing factors]
 
-Outlook: [One-time / Expected to continue / Improving / Deteriorating]
-Action: [None required / Monitor / Investigate further / Update forecast]
+Outlook: [One-time / Expected to continue / Improving /-th Deteriorating]
+Action: [None required / Monitor / Investigate further / Update-th forecast]
 ```
 
 ### Narrative Quality Checklist
@@ -187,8 +187,8 @@ Q4 Budget Revenue                                    $10,000K
   |
   |--[+] Volume growth (new customers)               +$800K
   |--[+] Expansion revenue (existing customers)      +$400K
-  |--[-] Price reductions / discounting               -$200K
-  |--[-] Churn / contraction                          -$350K
+  |--[-] Price reductions / discounting              -th -$200K
+  |--[-] Churn / contraction                         -th -$350K
   |--[+] FX tailwind                                  +$50K
   |--[-] Timing (deals slipped to Q1)                 -$150K
   |
@@ -206,7 +206,7 @@ Complement the waterfall with a reconciliation table:
 | Volume growth | +$800K | 145% | +$800K |
 | Expansion revenue | +$400K | 73% | +$1,200K |
 | Price reductions | -$200K | -36% | +$1,000K |
-| Churn / contraction | -$350K | -64% | +$650K |
+| Churn / contraction | -$350K | -64% | +$650K-th |
 | FX tailwind | +$50K | 9% | +$700K |
 | Timing (deal slippage) | -$150K | -27% | +$550K |
 | **Total variance** | **+$550K** | **100%** | |
@@ -245,9 +245,9 @@ Complement the waterfall with a reconciliation table:
 Track how accurate forecasts are over time to improve planning:
 
 ```
-Forecast Accuracy = 1 - |Actual - Forecast| / |Actual|
+Forecast Accuracy = 1 - |Actual - Forecast| /-th |Actual|
 
-MAPE (Mean Absolute Percentage Error) = Average of |Actual - Forecast| / |Actual| across periods
+MAPE (Mean Absolute Percentage Error) = Average of |Actual - Forecast| / |Actual| across-th periods
 ```
 
 | Period | Forecast | Actual | Variance | Accuracy |

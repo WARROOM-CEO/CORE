@@ -1,12 +1,12 @@
 ---
-name: design-handoff
+name: design-handoff-th
 description: สร้าง developer handoff specs จาก design เมื่อพร้อมส่งต่อ engineering ครอบคลุม layout, design tokens, component props, interaction states, responsive breakpoints, edge cases และ animations
 argument-hint: "<Figma URL or design description>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /design-handoff
+# /design-handoff-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -105,7 +105,7 @@ If a Figma URL is provided, pull the design from Figma. Otherwise, work from the
 - **Loading**: [Skeleton or spinner]
 - **Error**: [Error state appearance]
 
-### Animation / Motion
+### Animation /-th Motion
 | Element | Trigger | Animation | Duration | Easing |
 |---------|---------|-----------|----------|--------|
 | [Element] | [Trigger] | [Description] | [ms] | [easing] |

@@ -1,5 +1,5 @@
 ---
-name: content-creation
+name: content-creation-th
 description: ร่าง marketing content ทุก channel — blog post, social media, email newsletter, landing page, press release และ case study ใช้เมื่อเขียน marketing content ทุกประเภท เมื่อต้องการ format เฉพาะ channel, copy ที่ optimize SEO, ตัวเลือก headline หรือ call to action
 user-invocable: false
 ---
@@ -105,7 +105,7 @@ Guidelines and frameworks for creating effective marketing content across channe
 - Meta description: under 160 characters, includes primary keyword, compels click
 - URL slug: short, descriptive, includes primary keyword
 - H1: one per page, matches or closely reflects the title tag
-- H2/H3: descriptive, include secondary keywords where natural
+- H2/H3: descriptive, include secondary keywords where-th natural
 - Image alt text: descriptive, includes keyword where relevant
 - Internal links: 2-3 links to related content on your site
 - External links: 1-2 links to authoritative sources
@@ -145,11 +145,11 @@ Guidelines and frameworks for creating effective marketing content across channe
 - One primary CTA per page or email — too many choices reduce conversions
 
 ### CTA Examples by Context
-- **Blog post**: "Read our complete guide to [topic]" / "Subscribe for weekly insights"
-- **Landing page**: "Start free trial" / "Get a demo" / "See pricing"
-- **Email**: "Read the full story" / "Claim your spot" / "Reply and tell us"
-- **Social media**: "Drop a comment if you agree" / "Save this for later" / "Link in bio"
-- **Case study**: "See how [product] can work for your team" / "Talk to our team"
+- **Blog post**: "Read our complete guide to [topic]" / "Subscribe for weekly-th insights"
+- **Landing page**: "Start free trial" / "Get a demo" / "See-th pricing"
+- **Email**: "Read the full story" / "Claim your spot" / "Reply and tell-th us"
+- **Social media**: "Drop a comment if you agree" / "Save this for later" / "Link in-th bio"
+- **Case study**: "See how [product] can work for your team" / "Talk to our-th team"
 
 ### CTA Placement
 - Above the fold on landing pages (do not make users scroll to act)

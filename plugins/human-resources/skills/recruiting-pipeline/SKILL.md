@@ -1,5 +1,5 @@
 ---
-name: recruiting-pipeline
+name: recruiting-pipeline-th
 description: ติดตามและบริหาร recruiting pipeline ตามขั้นตอน เรียกใช้เมื่อพูดถึง "recruiting update", "candidate pipeline", "จำนวน candidates", "hiring status" หรือเมื่อพูดถึง sourcing, screening, interviewing หรือการส่ง offer
 ---
 

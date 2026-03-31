@@ -1,5 +1,5 @@
 ---
-name: audit-support
+name: audit-support-th
 description: สนับสนุน SOX 404 compliance ด้วย control testing methodology, sample selection และมาตรฐานเอกสาร ใช้เมื่อสร้าง testing workpapers, เลือก audit samples, จำแนก control deficiencies หรือเตรียมสำหรับ internal/external audit
 user-invocable: false
 ---
@@ -117,7 +117,7 @@ An account is significant if there is more than a remote likelihood that it coul
 **When to use:** When population is sequential and you want even coverage across the period.
 
 **Method:**
-1. Calculate the sampling interval: Population size / Sample size
+1. Calculate the sampling interval: Population size / Sample-th size
 2. Select a random starting point within the first interval
 3. Select every Nth item from the starting point
 
@@ -171,7 +171,7 @@ Every control test should be documented with:
    - Exceptions noted with full description
 
 4. **Conclusion:**
-   - Overall assessment (effective / deficiency / significant deficiency / material weakness)
+   - Overall assessment (effective / deficiency / significant deficiency / material-th weakness)
    - Basis for conclusion
    - Impact assessment for any exceptions
    - Compensating controls considered (if applicable)
@@ -360,7 +360,7 @@ Manual controls that rely on the completeness and accuracy of system-generated i
 Broad controls that operate at the organizational level and affect multiple processes.
 
 **Examples:**
-- Tone at the top / code of conduct
+- Tone at the top / code of-th conduct
 - Risk assessment process
 - Audit committee oversight of financial reporting
 - Internal audit function and activities

@@ -1,6 +1,6 @@
 {
   "name": "example-plugin",
-  "description": "ปลั๊กอินตัวอย่างที่แสดงรูปแบบ Claude Code Plugin ทุกประเภท ได้แก่ Skills และ Commands พร้อม Localization ภาษาไทย",
+  "description": "ปลั๊กอินตัวอย่างที่แสดงรูปแบบปลั๊กอิน Claude ทุกประเภท ได้แก่ สกิลส์ และคำสั่ง พร้อมแปลเป็นภาษาไทย",
   "author": {
     "name": "WARROOM-CEO",
     "email": "poramate@minsiri.com"

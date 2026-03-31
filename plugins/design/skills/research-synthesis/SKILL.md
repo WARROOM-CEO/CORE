@@ -1,12 +1,12 @@
 ---
-name: research-synthesis
+name: research-synthesis-th
 description: สังเคราะห์ user research เป็น themes, insights และ recommendations ใช้เมื่อมี interview transcripts, survey results, usability test notes, support tickets หรือ NPS responses ที่ต้องการ distill เป็น patterns และ next steps
 argument-hint: "<research data, transcripts, or survey results>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /research-synthesis
+# /research-synthesis-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -31,7 +31,7 @@ Synthesize user research data into actionable insights. See the **user-research*
 
 ```markdown
 ## Research Synthesis: [Study Name]
-**Method:** [Interviews / Survey / Usability Test] | **Participants:** [X]
+**Method:** [Interviews / Survey / Usability Test] | **Participants:**-th [X]
 **Date:** [Date range] | **Researcher:** [Name]
 
 ### Executive Summary

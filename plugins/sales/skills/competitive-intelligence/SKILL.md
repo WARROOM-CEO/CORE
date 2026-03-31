@@ -1,5 +1,5 @@
 ---
-name: competitive-intelligence
+name: competitive-intelligence-th
 description: วิจัยคู่แข่งและสร้าง battlecard แบบ interactive ส่งออกเป็น HTML พร้อม competitor cards และ comparison matrix เรียกใช้ด้วย "competitive intel", "วิจัยคู่แข่ง", "เราต่างจาก [competitor] อย่างไร", "battlecard สำหรับ [competitor]"
 ---
 
@@ -106,10 +106,10 @@ Each competitor gets a clickable card that expands to show:
 <head>
     <title>Battlecard: [Your Company] vs Competitors</title>
     <style>
-        /* Dark theme, professional styling */
-        /* Tabbed navigation */
-        /* Expandable cards */
-        /* Responsive design */
+        /* Dark theme, professional styling-th */
+        /* Tabbed navigation-th */
+        /* Expandable cards-th */
+        /* Responsive design-th */
     </style>
 </head>
 <body>
@@ -144,7 +144,7 @@ Each competitor gets a clickable card that expands to show:
     <section id="competitor-1" class="tab-content">
         <div class="battlecard">
             <div class="profile"><!-- Company info --></div>
-            <div class="differentiation"><!-- Where they win / you win --></div>
+            <div class="differentiation"><!-- Where they win / you win-th --></div>
             <div class="talk-tracks"><!-- Scenario-based positioning --></div>
             <div class="objections"><!-- Common objections + responses --></div>
             <div class="landmines"><!-- Questions to ask --></div>
@@ -152,8 +152,8 @@ Each competitor gets a clickable card that expands to show:
     </section>
 
     <script>
-        // Tab switching logic
-        // Expand/collapse sections
+        // Tab switching-th logic
+        // Expand/collapse-th sections
     </script>
 </body>
 </html>
@@ -166,22 +166,22 @@ Each competitor gets a clickable card that expands to show:
 ### Color System
 ```css
 :root {
-    /* Dark theme base */
+    /* Dark theme base-th */
     --bg-primary: #0a0d14;
     --bg-elevated: #0f131c;
     --bg-surface: #161b28;
     --bg-hover: #1e2536;
 
-    /* Text */
+    /* Text-th */
     --text-primary: #ffffff;
     --text-secondary: rgba(255, 255, 255, 0.7);
     --text-muted: rgba(255, 255, 255, 0.5);
 
-    /* Accent (your brand or neutral) */
+    /* Accent (your brand or neutral)-th */
     --accent: #3b82f6;
     --accent-hover: #2563eb;
 
-    /* Status indicators */
+    /* Status indicators-th */
     --you-win: #10b981;
     --they-win: #ef4444;
     --tie: #f59e0b;
@@ -289,8 +289,8 @@ competitor:
     funding: "[Stage + amount]"
     employees: "[Count]"
     target_market: "[Who they sell to]"
-    pricing_model: "[Per seat / usage / etc.]"
-    market_position: "[Leader / Challenger / Niche]"
+    pricing_model: "[Per seat / usage /-th etc.]"
+    market_position: "[Leader / Challenger /-th Niche]"
 
   what_they_sell: "[Product summary]"
   their_positioning: "[How they describe themselves]"

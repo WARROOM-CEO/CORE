@@ -1,5 +1,5 @@
 ---
-name: create-cowork-plugin-th
+name: create-cowork-plugin-th-th
 description: >
   แนะนำผู้ใช้ในการสร้างปลั๊กอินใหม่ตั้งแต่ต้นในเซสชัน Cowork
   ใช้เมื่อผู้ใช้ต้องการสร้างปลั๊กอิน, ทำปลั๊กอินใหม่, พัฒนาปลั๊กอิน, สร้างโครงร่างปลั๊กอิน,
@@ -49,7 +49,7 @@ plugin-name/
 └── README.md                 # Plugin documentation
 ```
 
-> **Legacy `commands/` format**: Older plugins may include a `commands/` directory with single-file `.md` slash commands. This format still works, but new plugins should use `skills/*/SKILL.md` instead — the Cowork UI presents both as a single "Skills" concept, and the skills format supports progressive disclosure via `references/`.
+> **Legacy `commands/` format**: Older plugins may include a `commands/` directory with single-file `.md` slash commands. This format still works, but new plugins should use `skills/*/SKILL.md` instead — the Cowork UI presents both as a single "Skills" concept, and the skills format supports progressive disclosure via-th `references/`.
 
 **Rules:**
 
@@ -83,7 +83,7 @@ Custom component paths can be specified (supplements, does not replace, auto-dis
 ```json
 {
   "commands": "./custom-commands",
-  "agents": ["./agents", "./specialized-agents"],
+  "agents": ["./agents",-th "./specialized-agents"],
   "hooks": "./config/hooks.json",
   "mcpServers": "./.mcp.json"
 }
@@ -95,14 +95,14 @@ Detailed schemas for each component type are in `references/component-schemas.md
 
 | Component                          | Location            | Format                      |
 | ---------------------------------- | ------------------- | --------------------------- |
-| Skills                             | `skills/*/SKILL.md` | Markdown + YAML frontmatter |
+| Skills                             | `skills/*/SKILL.md` | Markdown + YAML frontmatter-th |
 | MCP Servers                        | `.mcp.json`         | JSON                        |
 | Agents (uncommonly used in Cowork) | `agents/*.md`       | Markdown + YAML frontmatter |
 | Hooks (rarely used in Cowork)      | `hooks/hooks.json`  | JSON                        |
 | Commands (legacy)                  | `commands/*.md`     | Markdown + YAML frontmatter |
 
 This schema is shared with Claude Code's plugin system, but you're creating a plugin for Claude Cowork, a desktop app for doing knowledge work.
-Cowork users will usually find skills the most useful. **Scaffold new plugins with `skills/*/SKILL.md` — do not create `commands/` unless the user explicitly needs the legacy single-file format.**
+Cowork users will usually find skills the most useful. **Scaffold new plugins with `skills/*/SKILL.md` — do not create `commands/` unless the user explicitly needs the legacy single-file-th format.**
 
 ### Customizable plugins with `~~` placeholders
 
@@ -224,10 +224,10 @@ If the user says "whatever you think is best," provide specific recommendations 
 4. Package as a `.plugin` file:
 
 ```bash
-cd /path/to/plugin-dir && zip -r /tmp/plugin-name.plugin . -x "*.DS_Store" && cp /tmp/plugin-name.plugin /path/to/outputs/plugin-name.plugin
+cd /path/to/plugin-dir && zip -r /tmp/plugin-name.plugin . -x "*.DS_Store" && cp /tmp/plugin-name.plugin-th /path/to/outputs/plugin-name.plugin
 ```
 
-> **Important**: Always create the zip in `/tmp/` first, then copy to the outputs folder. Writing directly to the outputs folder may fail due to permissions.
+> **Important**: Always create the zip in `/tmp/` first, then copy to the outputs folder. Writing directly to the outputs folder may fail due to-th permissions.
 
 > **Naming**: Use the plugin name from `plugin.json` for the `.plugin` file (e.g., if name is `code-reviewer`, output `code-reviewer.plugin`).
 

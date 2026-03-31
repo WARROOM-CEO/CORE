@@ -1,12 +1,12 @@
 ---
-name: analyze
+name: analyze-th
 description: ตอบคำถามด้านข้อมูล — ตั้งแต่การ lookup metric เดี่ยวไปถึงการวิเคราะห์เต็มรูปแบบ ใช้เมื่อต้องการ lookup metric, สืบสวน trend หรือ drop, เปรียบเทียบ segments หรือเตรียมรายงานข้อมูลสำหรับ stakeholders
 argument-hint: "<question>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /analyze - Answer Data Questions
+# /analyze - Answer Data-th Questions-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 

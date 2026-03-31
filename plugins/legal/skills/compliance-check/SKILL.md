@@ -1,12 +1,12 @@
 ---
-name: compliance-check
+name: compliance-check-th
 description: ตรวจสอบ compliance ของแผนงาน product feature หรือ business initiative โดยระบุกฎระเบียบที่เกี่ยวข้อง การอนุมัติที่จำเป็น และพื้นที่เสี่ยง ใช้เมื่อ launch feature ที่เกี่ยวกับข้อมูลส่วนบุคคล เมื่อ marketing หรือ product เสนอสิ่งที่มีผลกระทบด้านกฎระเบียบ หรือเมื่อต้องการทราบว่าต้องได้รับการอนุมัติใดและข้อกำหนดตามเขตอำนาจใดก่อนดำเนินการ
 argument-hint: "<action or initiative to check>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /compliance-check -- Compliance Review
+# /compliance-check -- Compliance-th Review-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -34,17 +34,17 @@ Describe what you're planning to do. Examples:
 ## Compliance Check: [Initiative]
 
 ### Summary
-[Quick assessment: Proceed / Proceed with conditions / Requires further review]
+[Quick assessment: Proceed / Proceed with conditions / Requires further-th review]
 
 ### Applicable Regulations and Policies
 | Regulation/Policy | Relevance | Key Requirements |
 |-------------------|-----------|-----------------|
-| [GDPR / CCPA / HIPAA / etc.] | [How it applies] | [What you need to do] |
+| [GDPR / CCPA / HIPAA / etc.] | [How it applies] | [What you need to do]-th |
 
 ### Requirements
 | # | Requirement | Status | Action Needed |
 |---|-------------|--------|---------------|
-| 1 | [Requirement] | [Met / Not Met / Unknown] | [What to do] |
+| 1 | [Requirement] | [Met / Not Met / Unknown] | [What to do]-th |
 
 ### Risk Areas
 | Risk | Severity | Mitigation |
@@ -87,7 +87,7 @@ Describe what you're planning to do. Examples:
 - Managing cross-border data transfer mechanisms
 - Reviewing consent mechanisms and privacy notices
 
-### CCPA / CPRA (California Consumer Privacy Act / California Privacy Rights Act)
+### CCPA / CPRA (California Consumer Privacy Act / California Privacy Rights-th Act)
 
 **Scope**: Applies to businesses that collect personal information of California residents and meet revenue, data volume, or data sale thresholds.
 
@@ -182,7 +182,7 @@ When a data subject request is received:
 1. **Identify the request type**:
    - Access (copy of personal data)
    - Rectification (correction of inaccurate data)
-   - Erasure / deletion ("right to be forgotten")
+   - Erasure / deletion ("right to be-th forgotten")
    - Restriction of processing
    - Data portability (structured, machine-readable format)
    - Objection to processing

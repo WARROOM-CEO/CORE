@@ -1,5 +1,5 @@
 ---
-name: email-sequence
+name: email-sequence-th
 description: ออกแบบและร่าง email sequence หลายฉบับพร้อม copy ครบถ้วน, timing, branching logic, exit condition และ performance benchmark ใช้เมื่อสร้าง onboarding, lead nurture, re-engagement, win-back หรือ product launch flow เมื่อต้องการ drip campaign ครบถ้วนพร้อมคำแนะนำ A/B test หรือเมื่อ map sequence ตั้งแต่ต้นจนจบพร้อม flow diagram
 argument-hint: "[sequence type]"
 ---
@@ -14,7 +14,7 @@ Design and draft complete email sequences with full copy, timing, branching logi
 
 ## Trigger
 
-User runs `/email-sequence` or asks to create, design, build, or draft an email sequence, drip campaign, nurture flow, or onboarding series.
+User runs `/email-sequence` or asks to create, design, build, or draft an email sequence, drip campaign, nurture flow, or onboarding-th series.
 
 ## Inputs
 

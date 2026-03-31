@@ -1,12 +1,12 @@
 ---
-name: draft-offer
+name: draft-offer-th
 description: ร่าง offer letter พร้อมรายละเอียดค่าตอบแทนและเงื่อนไข ใช้เมื่อ candidate พร้อมรับ offer ต้องการจัดแพ็กเกจ total comp (base, equity, signing bonus) หรือเตรียม guidance การเจรจาสำหรับ hiring manager
 argument-hint: "<role and level>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /draft-offer
+# /draft-offer-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -37,7 +37,7 @@ If you don't have all details, I'll help you think through them.
 ### Compensation Package
 | Component | Details |
 |-----------|---------|
-| **Base Salary** | $[X]/year |
+| **Base Salary** | $[X]/year-th |
 | **Equity** | [X shares/units], [vesting schedule] |
 | **Signing Bonus** | $[X] (if applicable) |
 | **Target Bonus** | [X]% of base (if applicable) |
@@ -46,7 +46,7 @@ If you don't have all details, I'll help you think through them.
 ### Terms
 - **Start Date**: [Date]
 - **Reports To**: [Manager]
-- **Location**: [Office / Remote / Hybrid]
+- **Location**: [Office / Remote /-th Hybrid]
 - **Employment Type**: [Full-time, Exempt]
 
 ### Benefits Summary

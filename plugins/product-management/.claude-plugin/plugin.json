@@ -1,8 +1,9 @@
 {
   "name": "product-management",
   "version": "1.2.0",
-  "description": "เขียน feature specs, วางแผน roadmap และสังเคราะห์ user research ได้เร็วขึ้น อัปเดตผู้มีส่วนได้ส่วนเสียและติดตาม competitive landscape อย่างมีประสิทธิภาพ",
+  "description": "เขียนข้อกำหนดคุณสมบัติ, วางแผนแผนงาน และสังเคราะห์ผลการวิจัยผู้ใช้ได้เร็วขึ้น อัปเดตผู้มีส่วนได้ส่วนเสียและติดตามสถานการณ์คู่แข่งอย่างมีประสิทธิภาพ",
   "author": {
-    "name": "Anthropic"
+    "name": "WARROOM-CEO",
+    "email": "poramate@minsiri.com"
   }
 }

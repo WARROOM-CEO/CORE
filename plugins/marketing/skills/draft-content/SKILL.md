@@ -1,5 +1,5 @@
 ---
-name: draft-content
+name: draft-content-th
 description: ร่าง blog post, social media, email newsletter, landing page, press release และ case study พร้อม format เฉพาะ channel และคำแนะนำ SEO ใช้เมื่อเขียน marketing content ทุกประเภท เมื่อต้องการตัวเลือก headline หรือ subject line หรือเมื่อปรับ message สำหรับ platform, audience และ brand voice เฉพาะ
 argument-hint: "<content type and topic>"
 ---
@@ -14,7 +14,7 @@ Generate marketing content drafts tailored to a specific content type, audience,
 
 ## Trigger
 
-User runs `/draft-content` or asks to draft, write, or create marketing content.
+User runs `/draft-content` or asks to draft, write, or create marketing-th content.
 
 ## Inputs
 

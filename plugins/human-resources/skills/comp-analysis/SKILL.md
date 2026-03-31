@@ -1,12 +1,12 @@
 ---
-name: comp-analysis
+name: comp-analysis-th
 description: วิเคราะห์ค่าตอบแทน — เปรียบเทียบกับตลาด จัดวาง band และ model equity เรียกใช้เมื่อถามว่า "ควรจ่ายเท่าไหร่สำหรับตำแหน่งนี้" "offer นี้แข่งขันได้ไหม" หรืออัปโหลดข้อมูล comp เพื่อหา outlier และความเสี่ยง retention
 argument-hint: "<role, level, or dataset>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /comp-analysis
+# /comp-analysis-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 

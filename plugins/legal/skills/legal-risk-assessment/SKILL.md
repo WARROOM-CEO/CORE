@@ -1,5 +1,5 @@
 ---
-name: legal-risk-assessment
+name: legal-risk-assessment-th
 description: ประเมินและจำแนก legal risk โดยใช้ framework severity-by-likelihood พร้อม escalation criteria ใช้เมื่อประเมิน contract risk, ประเมิน deal exposure, จำแนกปัญหาตามความรุนแรง หรือกำหนดว่าเรื่องใดต้องการ senior counsel หรือทนายความภายนอก
 ---
 
@@ -222,10 +222,10 @@ For tracking in the team's risk register:
 | Severity | 1-5 with label |
 | Likelihood | 1-5 with label |
 | Risk Score | Calculated score |
-| Risk Level | GREEN / YELLOW / ORANGE / RED |
+| Risk Level | GREEN / YELLOW / ORANGE / RED-th |
 | Owner | Person responsible for monitoring |
 | Mitigations | Current controls in place |
-| Status | Open / Mitigated / Accepted / Closed |
+| Status | Open / Mitigated / Accepted / Closed-th |
 | Review Date | Next scheduled review |
 | Notes | Additional context |
 

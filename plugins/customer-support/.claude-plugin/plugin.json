@@ -1,8 +1,9 @@
 {
   "name": "customer-support",
   "version": "1.2.0",
-  "description": "Triage tickets, ร่าง responses, escalate ปัญหา และสร้าง knowledge base วิจัย customer context และแปลงปัญหาที่แก้แล้วให้เป็น self-service content",
+  "description": "คัดแยกประเด็น, ร่างคำตอบ, แจ้งเตือนปัญหาที่สำคัญ และสร้างฐานความรู้ วิจัยข้อมูลลูกค้า และแปลงปัญหาที่แก้ไขแล้วให้เป็นเนื้อหาสำหรับบริการตนเอง",
   "author": {
-    "name": "Anthropic"
+    "name": "WARROOM-CEO",
+    "email": "poramate@minsiri.com"
   }
 }

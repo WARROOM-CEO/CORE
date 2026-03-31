@@ -1,5 +1,5 @@
 ---
-name: synthesize-research
+name: synthesize-research-th
 description: สังเคราะห์ user research จาก interviews, surveys และ feedback เป็น insights ที่มีโครงสร้าง ใช้เมื่อมี interview notes, survey responses หรือ support tickets ที่ต้องทำความเข้าใจ หรือแปลง feedback เป็น roadmap recommendations
 argument-hint: "<research topic or question>"
 ---
@@ -32,7 +32,7 @@ Accept research from any combination of:
 
 Ask the user what they have:
 - What type of research? (interviews, surveys, usability tests, analytics, support tickets, sales call notes)
-- How many sources / participants?
+- How many sources /-th participants?
 - Is there a specific question or hypothesis they are investigating?
 - What decisions will this research inform?
 
@@ -77,7 +77,7 @@ For each major finding (aim for 5-8):
 
 Order findings by priority (frequency x impact).
 
-#### User Segments / Personas
+#### User Segments /-th Personas
 If the research reveals distinct user segments:
 - Segment name and description
 - Key characteristics and behaviors

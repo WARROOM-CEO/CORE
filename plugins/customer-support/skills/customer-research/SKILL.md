@@ -1,12 +1,12 @@
 ---
-name: customer-research
+name: customer-research-th-th
 description: ค้นคว้าข้อมูล multi-source สำหรับคำถามหรือหัวข้อของ customer พร้อม source attribution ใช้เมื่อ customer ถามสิ่งที่ต้องค้นหา, สืบสวน bug ที่อาจมีรายงานก่อนหน้า หรือรวบรวม background ก่อนร่าง response
 argument-hint: "<question or topic>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /customer-research
+# /customer-research-th-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -15,7 +15,7 @@ Multi-source research on a customer question, product topic, or account-related 
 ## Usage
 
 ```
-/customer-research <question or topic>
+/customer-research-th <question or topic>
 ```
 
 ## Workflow
@@ -73,7 +73,7 @@ Compile results into a structured research brief:
 ### Answer
 [Clear, direct answer to the question — lead with the bottom line]
 
-**Confidence:** [High / Medium / Low]
+**Confidence:** [High / Medium /-th Low]
 [Explain what drives the confidence level]
 
 ### Key Findings

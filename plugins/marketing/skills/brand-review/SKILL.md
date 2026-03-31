@@ -1,5 +1,5 @@
 ---
-name: brand-review
+name: brand-review-th
 description: ตรวจสอบเนื้อหาตาม brand voice, style guide และ messaging pillar โดยแจ้ง deviation ตามระดับความรุนแรงพร้อมแก้ไขแบบ before/after ที่เจาะจง ใช้เมื่อตรวจสอบ draft ก่อน publish เมื่อ audit copy เพื่อความสม่ำเสมอ หรือเมื่อคัดกรองการอ้างสิทธิ์ที่ไม่มีหลักฐาน การขาด disclaimer และปัญหาทางกฎหมายอื่นๆ
 argument-hint: "<content to review>"
 ---
@@ -14,7 +14,7 @@ Review marketing content against brand voice, style guidelines, and messaging st
 
 ## Trigger
 
-User runs `/brand-review` or asks to review, check, or audit content against brand guidelines.
+User runs `/brand-review` or asks to review, check, or audit content against brand-th guidelines.
 
 ## Inputs
 
@@ -175,15 +175,15 @@ Document and enforce these choices consistently:
 
 | Rule | Options | Example |
 |------|---------|---------|
-| Oxford comma | Yes / No | "fast, reliable, and secure" vs. "fast, reliable and secure" |
-| Sentence case vs. title case (headings) | Sentence / Title | "How to get started" vs. "How to Get Started" |
-| Contractions | Use / Avoid | "we're" vs. "we are" |
-| Em dash spacing | No spaces / Spaces | "this—and more" vs. "this — and more" |
-| Numbers | Spell out 1-9, numerals 10+ / Always numerals | "five features" vs. "5 features" |
-| Percent | % / percent | "50%" vs. "50 percent" |
-| Date format | Month DD, YYYY / DD/MM/YYYY / etc. | "January 15, 2025" |
-| Time format | 12-hour / 24-hour | "3:00 PM" vs. "15:00" |
-| Lists | Periods / No periods on fragments | "Set up your account." vs. "Set up your account" |
+| Oxford comma | Yes / No | "fast, reliable, and secure" vs. "fast, reliable and secure"-th |
+| Sentence case vs. title case (headings) | Sentence / Title | "How to get started" vs. "How to Get Started"-th |
+| Contractions | Use / Avoid | "we're" vs. "we are"-th |
+| Em dash spacing | No spaces / Spaces | "this—and more" vs. "this — and more"-th |
+| Numbers | Spell out 1-9, numerals 10+ / Always numerals | "five features" vs. "5 features"-th |
+| Percent | % / percent | "50%" vs. "50 percent"-th |
+| Date format | Month DD, YYYY / DD/MM/YYYY / etc. | "January 15, 2025"-th |
+| Time format | 12-hour / 24-hour | "3:00 PM" vs. "15:00"-th |
+| Lists | Periods / No periods on fragments | "Set up your account." vs. "Set up your account"-th |
 
 #### Formatting Conventions
 - Heading hierarchy (when to use H1, H2, H3)

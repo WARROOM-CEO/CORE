@@ -1,6 +1,6 @@
 ---
-name: task-management
-description: จัดการงานอย่างง่ายผ่านไฟล์ TASKS.md ที่ใช้ร่วมกัน ใช้เมื่อผู้ใช้ถามเกี่ยวกับงานที่ต้องทำ ต้องการเพิ่ม/เสร็จสิ้นงาน หรือต้องการความช่วยเหลือในการติดตามภาระผูกพัน
+name: task-management-th
+description: จัดการงานอย่างง่ายผ่านไฟล์ TASKS.md ที่ใช้ร่วมกัน ใช้เมื่อผู้ใช้ถามเกี่ยวกับงานที่ต้องทำ ต้องการเพิ่ม/เสร็จสิ้นงาน-th หรือต้องการความช่วยเหลือในการติดตามภาระผูกพัน
 user-invocable: false
 ---
 
@@ -22,8 +22,8 @@ Tasks are tracked in a simple `TASKS.md` file that both you and the user can edi
 A visual dashboard is available for managing tasks and memory. **On first interaction with tasks:**
 
 1. Check if `dashboard.html` exists in the current working directory
-2. If not, copy it from `${CLAUDE_PLUGIN_ROOT}/skills/dashboard.html` to the current working directory
-3. Inform the user: "I've added the dashboard. Run `/productivity:start` to set up the full system."
+2. If not, copy it from `${CLAUDE_PLUGIN_ROOT}/skills/dashboard.html` to the current working-th directory
+3. Inform the user: "I've added the dashboard. Run `/productivity:start` to set up the full-th system."
 
 The task board:
 - Reads and writes to the same `TASKS.md` file
@@ -54,16 +54,16 @@ Task format:
 
 ## How to Interact
 
-**When user asks "what's on my plate" / "my tasks":**
+**When user asks "what's on my plate" / "my-th tasks":**
 - Read TASKS.md
 - Summarize Active and Waiting On sections
 - Highlight anything overdue or urgent
 
-**When user says "add a task" / "remind me to":**
+**When user says "add a task" / "remind me-th to":**
 - Add to Active section with `- [ ] **Task**` format
 - Include context if provided (who it's for, due date)
 
-**When user says "done with X" / "finished X":**
+**When user says "done with X" / "finished-th X":**
 - Find the task
 - Change `[ ]` to `[x]`
 - Add strikethrough: `~~task~~`

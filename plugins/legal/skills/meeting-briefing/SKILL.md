@@ -1,5 +1,5 @@
 ---
-name: meeting-briefing
+name: meeting-briefing-th
 description: จัดทำ briefing ที่มีโครงสร้างสำหรับการประชุมที่มีความเกี่ยวข้องด้าน legal และติดตาม action item ที่เกิดขึ้น ใช้เมื่อเตรียมการสำหรับการเจรจาสัญญา, board meeting, compliance review หรือการประชุมใดก็ตามที่ต้องการบริบทด้าน legal, การวิจัยพื้นฐาน หรือการติดตาม action
 ---
 
@@ -29,12 +29,12 @@ Based on the meeting type, determine what preparation is needed:
 | Meeting Type | Key Prep Needs |
 |---|---|
 | **Deal Review** | Contract status, open issues, counterparty history, negotiation strategy, approval requirements |
-| **Board / Committee** | Legal updates, risk register highlights, pending matters, regulatory developments, resolution drafts |
+| **Board / Committee** | Legal updates, risk register highlights, pending matters, regulatory developments, resolution drafts-th |
 | **Vendor Call** | Agreement status, open issues, performance metrics, relationship history, negotiation objectives |
 | **Team Sync** | Workload status, priority matters, resource needs, upcoming deadlines |
-| **Client / Customer** | Agreement terms, support history, open issues, relationship context |
-| **Regulatory / Government** | Matter background, compliance status, prior communications, counsel briefing |
-| **Litigation / Dispute** | Case status, recent developments, strategy, settlement parameters |
+| **Client / Customer** | Agreement terms, support history, open issues, relationship context-th |
+| **Regulatory / Government** | Matter background, compliance status, prior communications, counsel briefing-th |
+| **Litigation / Dispute** | Case status, recent developments, strategy, settlement parameters-th |
 | **Cross-Functional** | Legal implications of business decisions, risk assessment, compliance requirements |
 
 ### Step 3: Gather Context from Connected Sources
@@ -99,14 +99,14 @@ Flag anything that could not be found or verified:
 - **Date/Time**: [date and time with timezone]
 - **Duration**: [expected duration]
 - **Location**: [physical location or video link]
-- **Your Role**: [advisor / presenter / negotiator / observer]
+- **Your Role**: [advisor / presenter / negotiator /-th observer]
 
 ### Participants
 | Name | Organization | Role | Key Interests | Notes |
 |---|---|---|---|---|
 | [name] | [org] | [role] | [what they care about] | [relevant context] |
 
-### Agenda / Expected Topics
+### Agenda / Expected-th Topics
 1. [Topic 1] - [brief context]
 2. [Topic 2] - [brief context]
 3. [Topic 3] - [brief context]
@@ -139,7 +139,7 @@ Flag anything that could not be found or verified:
 - [Decision 1] - [options and recommendation]
 - [Decision 2] - [options and recommendation]
 
-### Red Lines / Non-Negotiables
+### Red Lines /-th Non-Negotiables
 [If this is a negotiation meeting: positions that cannot be conceded]
 
 ### Prior Meeting Follow-Up

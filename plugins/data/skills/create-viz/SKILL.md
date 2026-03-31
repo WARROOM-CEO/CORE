@@ -1,12 +1,12 @@
 ---
-name: create-viz
+name: create-viz-th
 description: สร้าง visualizations คุณภาพสูงด้วย Python ใช้เมื่อแปลง query results หรือ DataFrame เป็น chart, เลือก chart type ที่เหมาะสม หรือต้องการ interactive chart พร้อม hover และ zoom
 argument-hint: "<data source> [chart type]"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /create-viz - Create Visualizations
+# /create-viz - Create-th Visualizations-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 

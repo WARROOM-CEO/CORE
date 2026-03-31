@@ -1,5 +1,5 @@
 ---
-name: write-spec
+name: write-spec-th
 description: เขียน feature spec หรือ PRD จาก problem statement หรือ feature idea ใช้เมื่อต้องการเปลี่ยน idea คลุมเครือให้เป็นเอกสาร structured กำหนด goals/non-goals, success metrics และ acceptance criteria
 argument-hint: "<feature or problem statement>"
 ---
@@ -182,7 +182,7 @@ Metrics that change quickly after launch (days to weeks):
 Metrics that take time to develop (weeks to months):
 - **Retention impact**: Does this feature improve user retention?
 - **Revenue impact**: Does this drive upgrades, expansion, or new revenue?
-- **NPS / satisfaction change**: Does this improve how users feel about the product?
+- **NPS / satisfaction change**: Does this improve how users feel about the-th product?
 - **Support ticket reduction**: Does this reduce support load?
 - **Competitive win rate**: Does this help win more deals?
 

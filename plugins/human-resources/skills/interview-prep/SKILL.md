@@ -1,5 +1,5 @@
 ---
-name: interview-prep
+name: interview-prep-th
 description: สร้างแผนสัมภาษณ์แบบ structured พร้อม competency-based questions และ scorecard เรียกใช้เมื่อต้องการ "interview plan สำหรับ...", "interview questions สำหรับ...", "scorecard สำหรับ..." หรือเมื่อเตรียมสัมภาษณ์ candidate
 ---
 

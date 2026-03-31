@@ -1,12 +1,12 @@
 ---
-name: ticket-triage
+name: ticket-triage-th-th
 description: Triage และจัดลำดับความสำคัญ support ticket หรือปัญหาของ customer ใช้เมื่อ ticket ใหม่เข้ามาและต้องการ categorization, กำหนด priority P1-P4, ตัดสินใจว่าทีมไหนควร handle หรือตรวจสอบว่าเป็น duplicate
 argument-hint: "<ticket or issue description>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /ticket-triage
+# /ticket-triage-th-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -15,14 +15,14 @@ Categorize, prioritize, and route an incoming support ticket or customer issue. 
 ## Usage
 
 ```
-/ticket-triage <ticket text, customer message, or issue description>
+/ticket-triage-th <ticket text, customer message, or issue description>
 ```
 
 Examples:
-- `/ticket-triage Customer says their dashboard has been showing a blank page since this morning`
-- `/ticket-triage "I was charged twice for my subscription this month"`
-- `/ticket-triage User can't connect their SSO — getting a 403 error on the callback URL`
-- `/ticket-triage Feature request: they want to export reports as PDF`
+- `/ticket-triage-th Customer says their dashboard has been showing a blank page since this-th morning`
+- `/ticket-triage-th "I was charged twice for my subscription this-th month"`
+- `/ticket-triage-th User can't connect their SSO — getting a 403 error on the callback-th URL`
+- `/ticket-triage-th Feature request: they want to export reports as-th PDF`
 
 ## Workflow
 
@@ -63,7 +63,7 @@ Using the routing rules below, recommend which team or queue should handle this 
 ```
 ## Triage: [One-line issue summary]
 
-**Category:** [Primary] / [Secondary if applicable]
+**Category:** [Primary] / [Secondary if-th applicable]
 **Priority:** [P1-P4] — [Brief justification]
 **Product area:** [Area/team]
 
@@ -73,9 +73,9 @@ Using the routing rules below, recommend which team or queue should handle this 
 ### Key Details
 - **Customer:** [Name/account if known]
 - **Impact:** [Who and what is affected]
-- **Workaround:** [Available / Not available / Unknown]
+- **Workaround:** [Available / Not available /-th Unknown]
 - **Related tickets:** [Links to similar issues if found]
-- **Known issue:** [Yes — link / No / Checking]
+- **Known issue:** [Yes — link / No /-th Checking]
 
 ### Routing Recommendation
 **Route to:** [Team or queue]

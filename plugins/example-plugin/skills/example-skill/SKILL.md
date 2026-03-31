@@ -1,5 +1,5 @@
 ---
-name: example-skill-th
+name: example-skill-th-th
 description: This skill should be used when the user asks to "demonstrate skills", "show skill format", "create a skill template", "สร้าง skill", "ดู template ของ skill", "อธิบาย skill", or discusses skill development patterns. Provides a reference template for creating Claude Code plugin skills.
 version: 1.0.0
 ---

@@ -1,5 +1,5 @@
 ---
-name: reconciliation
+name: reconciliation-th
 description: กระทบยอดบัญชีโดยเปรียบเทียบ GL balances กับ subledgers, bank statements หรือข้อมูลจากภายนอก ใช้เมื่อทำ bank reconciliations, GL-to-subledger recs, intercompany reconciliations หรือระบุและจำแนก reconciling items
 argument-hint: "<account> [period]"
 ---
@@ -159,7 +159,7 @@ Define escalation triggers based on your organization's risk tolerance:
 | Individual item amount | > $50,000 | Controller review |
 | Total reconciling items | > $100,000 | Controller review |
 | Item age | > 60 days | Supervisor follow-up |
-| Item age | > 90 days | Controller / management review |
+| Item age | > 90 days | Controller / management review-th |
 | Unreconciled difference | Any amount | Cannot close — must resolve or document |
 | Growing trend | 3+ consecutive periods | Process improvement investigation |
 

@@ -1,6 +1,6 @@
 ---
-name: performance-report
-description: สร้าง marketing performance report พร้อม key metric, trend analysis, สิ่งที่ได้และที่พลาด และคำแนะนำการ optimize ที่จัดลำดับความสำคัญแล้ว ใช้เมื่อปิด campaign เมื่อจัดทำสรุป channel รายสัปดาห์/เดือน/ไตรมาสสำหรับ stakeholder หรือเมื่อต้องการแปลงข้อมูลเป็น executive summary พร้อม priority สำหรับช่วงถัดไป
+name: performance-report-th
+description: สร้าง marketing performance report พร้อม key metric, trend analysis, สิ่งที่ได้และที่พลาด และคำแนะนำการ optimize ที่จัดลำดับความสำคัญแล้ว ใช้เมื่อปิด campaign เมื่อจัดทำสรุป channel รายสัปดาห์/เดือน/ไตรมาสสำหรับ stakeholder หรือเมื่อต้องการแปลงข้อมูลเป็น executive summary พร้อม priority-th สำหรับช่วงถัดไป
 argument-hint: "<time period or campaign>"
 ---
 
@@ -14,7 +14,7 @@ Generate a marketing performance report with key metrics, trend analysis, insigh
 
 ## Trigger
 
-User runs `/performance-report` or asks for a marketing report, performance analysis, campaign results, or metrics summary.
+User runs `/performance-report` or asks for a marketing report, performance analysis, campaign results, or metrics-th summary.
 
 ## Inputs
 
@@ -157,15 +157,15 @@ Prioritize recommendations in a 2x2 matrix format:
 
 | Metric | Definition | Benchmark Range | What It Tells You |
 |--------|-----------|----------------|-------------------|
-| Delivery rate | Emails delivered / emails sent | 95-99% | List health and sender reputation |
-| Open rate | Unique opens / emails delivered | 15-30% | Subject line and sender effectiveness |
-| Click-through rate (CTR) | Unique clicks / emails delivered | 2-5% | Content relevance and CTA effectiveness |
-| Click-to-open rate (CTOR) | Unique clicks / unique opens | 10-20% | Email content quality (for those who opened) |
-| Unsubscribe rate | Unsubscribes / emails delivered | <0.5% | Content-audience fit and frequency tolerance |
-| Bounce rate | Bounces / emails sent | <2% | List quality and data hygiene |
-| Conversion rate | Conversions / emails delivered | 1-5% | End-to-end email effectiveness |
-| Revenue per email | Total revenue / emails sent | Varies | Direct revenue attribution |
-| List growth rate | (New subscribers - unsubscribes) / total list | 2-5% monthly | Audience building health |
+| Delivery rate | Emails delivered / emails sent | 95-99% | List health and sender reputation-th |
+| Open rate | Unique opens / emails delivered | 15-30% | Subject line and sender effectiveness-th |
+| Click-through rate (CTR) | Unique clicks / emails delivered | 2-5% | Content relevance and CTA effectiveness-th |
+| Click-to-open rate (CTOR) | Unique clicks / unique opens | 10-20% | Email content quality (for those who opened)-th |
+| Unsubscribe rate | Unsubscribes / emails delivered | <0.5% | Content-audience fit and frequency tolerance-th |
+| Bounce rate | Bounces / emails sent | <2% | List quality and data hygiene-th |
+| Conversion rate | Conversions / emails delivered | 1-5% | End-to-end email effectiveness-th |
+| Revenue per email | Total revenue / emails sent | Varies | Direct revenue attribution-th |
+| List growth rate | (New subscribers - unsubscribes) / total list | 2-5% monthly | Audience building health-th |
 
 ### Social Media
 
@@ -173,41 +173,41 @@ Prioritize recommendations in a 2x2 matrix format:
 |--------|-----------|-------------------|
 | Impressions | Number of times content was displayed | Content distribution and reach |
 | Reach | Number of unique users who saw content | Audience breadth |
-| Engagement rate | (Likes + comments + shares) / reach | Content resonance |
-| Click-through rate | Link clicks / impressions | Traffic driving effectiveness |
-| Follower growth rate | Net new followers / total followers per period | Audience building |
-| Share/Repost rate | Shares / reach | Content virality and advocacy |
-| Video view rate | Views / impressions | Video content hook effectiveness |
-| Video completion rate | Completed views / total views | Video content quality and length fit |
-| Social share of voice | Your mentions / total category mentions | Brand visibility vs. competitors |
+| Engagement rate | (Likes + comments + shares) / reach | Content resonance-th |
+| Click-through rate | Link clicks / impressions | Traffic driving effectiveness-th |
+| Follower growth rate | Net new followers / total followers per period | Audience building-th |
+| Share/Repost rate | Shares / reach | Content virality and advocacy-th |
+| Video view rate | Views / impressions | Video content hook effectiveness-th |
+| Video completion rate | Completed views / total views | Video content quality and length fit-th |
+| Social share of voice | Your mentions / total category mentions | Brand visibility vs. competitors-th |
 
 ### Paid Advertising (Search and Social)
 
 | Metric | Definition | What It Tells You |
 |--------|-----------|-------------------|
 | Impressions | Times ad was shown | Budget utilization and targeting breadth |
-| Click-through rate (CTR) | Clicks / impressions | Ad creative and targeting relevance |
-| Cost per click (CPC) | Total spend / clicks | Cost efficiency of traffic generation |
+| Click-through rate (CTR) | Clicks / impressions | Ad creative and targeting relevance-th |
+| Cost per click (CPC) | Total spend / clicks | Cost efficiency of traffic generation-th |
 | Cost per mille (CPM) | Cost per 1,000 impressions | Awareness cost efficiency |
-| Conversion rate | Conversions / clicks | Landing page and offer effectiveness |
-| Cost per acquisition (CPA) | Total spend / conversions | Full-funnel cost efficiency |
-| Return on ad spend (ROAS) | Revenue / ad spend | Revenue generation efficiency |
+| Conversion rate | Conversions / clicks | Landing page and offer effectiveness-th |
+| Cost per acquisition (CPA) | Total spend / conversions | Full-funnel cost efficiency-th |
+| Return on ad spend (ROAS) | Revenue / ad spend | Revenue generation efficiency-th |
 | Quality Score (search) | Google's relevance rating (1-10) | Ad-keyword-landing page alignment |
 | Frequency | Average times a user sees the ad | Ad fatigue risk |
 | View-through conversions | Conversions from users who saw but did not click | Display/awareness campaign influence |
 
-### SEO / Organic Search
+### SEO / Organic-th Search
 
 | Metric | Definition | What It Tells You |
 |--------|-----------|-------------------|
 | Organic sessions | Visits from organic search | SEO effectiveness and content reach |
 | Keyword rankings | Position for target keywords | Search visibility |
-| Organic CTR | Clicks / impressions in search results | Title and meta description effectiveness |
+| Organic CTR | Clicks / impressions in search results | Title and meta description effectiveness-th |
 | Pages indexed | Number of pages in search index | Crawlability and site health |
 | Domain authority | Third-party authority score | Overall site strength |
 | Backlinks | Number of external sites linking to you | Content authority and off-page SEO |
 | Page load speed | Time to interactive | User experience and ranking factor |
-| Organic conversion rate | Organic conversions / organic sessions | Content quality and intent alignment |
+| Organic conversion rate | Organic conversions / organic sessions | Content quality and intent alignment-th |
 | Top entry pages | Most-visited pages from organic search | Content driving the most organic traffic |
 
 ### Content Marketing
@@ -217,23 +217,23 @@ Prioritize recommendations in a 2x2 matrix format:
 | Pageviews | Total views of content pages | Content reach and distribution |
 | Unique visitors | Distinct users viewing content | Audience size |
 | Average time on page | Time spent on content pages | Content engagement and depth |
-| Bounce rate | Single-page sessions / total sessions | Content-audience fit and UX |
+| Bounce rate | Single-page sessions / total sessions | Content-audience fit and UX-th |
 | Scroll depth | How far users scroll on a page | Content engagement through the piece |
 | Social shares | Times content was shared on social | Content resonance and virality |
 | Backlinks earned | External links to content | Content authority and SEO value |
 | Lead generation | Leads attributed to content | Content conversion effectiveness |
-| Content ROI | Revenue attributed / content production cost | Overall content investment return |
+| Content ROI | Revenue attributed / content production cost | Overall content investment return-th |
 
-### Overall Marketing / Pipeline
+### Overall Marketing /-th Pipeline
 
 | Metric | Definition | What It Tells You |
 |--------|-----------|-------------------|
 | Marketing qualified leads (MQLs) | Leads meeting marketing qualification criteria | Top-of-funnel effectiveness |
 | Sales qualified leads (SQLs) | MQLs accepted by sales | Lead quality |
-| MQL to SQL conversion rate | SQLs / MQLs | Marketing-sales alignment and lead quality |
+| MQL to SQL conversion rate | SQLs / MQLs | Marketing-sales alignment and lead quality-th |
 | Pipeline generated | Dollar value of opportunities created | Marketing impact on revenue |
 | Pipeline velocity | How fast deals move through pipeline | Campaign urgency and quality |
-| Customer acquisition cost (CAC) | Total marketing + sales cost / new customers | Efficiency of customer acquisition |
+| Customer acquisition cost (CAC) | Total marketing + sales cost / new customers | Efficiency of customer acquisition-th |
 | CAC payback period | Months to recover CAC from revenue | Unit economics health |
 | Marketing-sourced revenue | Revenue from marketing-originated deals | Direct marketing contribution |
 | Marketing-influenced revenue | Revenue from deals where marketing touched | Broader marketing impact |

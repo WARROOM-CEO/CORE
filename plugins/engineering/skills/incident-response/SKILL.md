@@ -1,10 +1,10 @@
 ---
-name: incident-response
+name: incident-response-th
 description: Run an incident response workflow — triage, communicate, and write postmortem. Trigger with "we have an incident", "production is down", an alert that needs severity assessment, a status update mid-incident, or when writing a blameless postmortem after resolution.
 argument-hint: "<incident description or alert>"
 ---
 
-# /incident-response
+# /incident-response-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -131,7 +131,7 @@ Provide clear, factual updates at regular cadence. Include: what's happening, wh
 ### Action Items
 | Action | Owner | Priority | Due Date |
 |--------|-------|----------|----------|
-| [Action] | [Person] | P0/P1/P2 | [Date] |
+| [Action] | [Person] | P0/P1/P2 | [Date]-th |
 
 ### Lessons Learned
 [Key takeaways for the team]

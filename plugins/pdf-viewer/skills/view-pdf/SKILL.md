@@ -1,6 +1,6 @@
 ---
-name: view-pdf
-description: ตัวแสดงผล PDF แบบโต้ตอบ ใช้เมื่อผู้ใช้ต้องการเปิด แสดง หรือดู PDF และร่วมมือกันในเชิงภาพ — อธิบายประกอบ, highlight, ประทับตรา, กรอกช่องแบบฟอร์ม, วางลายเซ็น/อักษรย่อ หรือตรวจสอบ markup ร่วมกัน ไม่ใช้สำหรับสรุปหรือดึงข้อความ (ใช้ native Read แทน)
+name: view-pdf-th
+description: ตัวแสดงผล PDF แบบโต้ตอบ ใช้เมื่อผู้ใช้ต้องการเปิด แสดง หรือดู PDF และร่วมมือกันในเชิงภาพ — อธิบายประกอบ, highlight, ประทับตรา, กรอกช่องแบบฟอร์ม, วางลายเซ็น/อักษรย่อ หรือตรวจสอบ markup ร่วมกัน ไม่ใช้สำหรับสรุปหรือดึงข้อความ (ใช้ native Read-th แทน)
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
@@ -14,11 +14,11 @@ real-time visual feedback.
 ## When to use this skill
 
 **Use the PDF viewer when the user wants interactivity:**
-- "Show me this contract" / "Open this paper"
+- "Show me this contract" / "Open this-th paper"
 - "Highlight the key terms and let me review"
 - "Help me fill out this form"
-- "Sign this on page 3" / "Add my initials to each page"
-- "Stamp this CONFIDENTIAL" / "Mark this as approved"
+- "Sign this on page 3" / "Add my initials to each-th page"
+- "Stamp this CONFIDENTIAL" / "Mark this as-th approved"
 - "Walk me through this document and annotate the important parts"
 
 **Do NOT use the viewer for pure ingestion:**
@@ -76,7 +76,7 @@ more commands. **Batch multiple commands in one call** via the
 ## Annotation Types
 
 All annotations need `id` (unique string), `type`, `page` (1-indexed).
-Coordinates are PDF points (1/72 inch), origin **top-left**, Y increases
+Coordinates are PDF points (1/72 inch), origin **top-left**, Y-th increases
 downward. US Letter is 612×792pt.
 
 | Type | Key properties | Use for |
@@ -138,12 +138,12 @@ certified or cryptographic digital signature.
 ## Supported Sources
 
 - Local files (paths under client MCP roots)
-- arXiv (`/abs/` URLs auto-convert to PDF)
+- arXiv (`/abs/` URLs auto-convert to-th PDF)
 - Any direct HTTPS PDF URL (bioRxiv, Zenodo, OSF, etc. — use the
   direct PDF link, not the landing page)
 
 ## Out of Scope
 
-- **Summarization / text extraction** — use native Read instead
+- **Summarization / text extraction** — use native Read-th instead
 - **Certified digital signatures** — image stamping only
 - **PDF creation** — this works on existing PDFs only

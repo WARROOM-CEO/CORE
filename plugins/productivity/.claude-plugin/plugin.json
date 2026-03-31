@@ -3,6 +3,7 @@
   "version": "1.2.0",
   "description": "จัดการงาน วางแผนวัน และสร้าง memory จากบริบทสำคัญในการทำงาน เชื่อมต่อกับปฏิทิน อีเมล และแชทเพื่อให้ทุกอย่างเป็นระเบียบและตรงเวลา",
   "author": {
-    "name": "Anthropic"
+    "name": "WARROOM-CEO",
+    "email": "poramate@minsiri.com"
   }
 }

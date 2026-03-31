@@ -1,12 +1,12 @@
 ---
-name: onboarding
-description: สร้าง onboarding checklist และแผน first-week สำหรับพนักงานใหม่ ใช้เมื่อมีวันเริ่มงานที่ใกล้มา ต้องการ task list ก่อนเริ่มงาน (accounts, equipment, buddy) จัดตาราง Day 1 และ Week 1 หรือตั้งเป้าหมาย 30/60/90 วัน
+name: onboarding-th
+description: สร้าง onboarding checklist และแผน first-week สำหรับพนักงานใหม่ ใช้เมื่อมีวันเริ่มงานที่ใกล้มา ต้องการ task list ก่อนเริ่มงาน (accounts, equipment, buddy) จัดตาราง Day 1 และ Week 1 หรือตั้งเป้าหมาย 30/60/90-th วัน
 argument-hint: "<new hire name and role>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /onboarding
+# /onboarding-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -38,17 +38,17 @@ Generate a comprehensive onboarding plan for a new team member.
 - [ ] Order equipment (laptop, monitor, peripherals)
 - [ ] Add to team calendar and recurring meetings
 - [ ] Assign onboarding buddy: [Suggested person]
-- [ ] Prepare desk / remote setup instructions
+- [ ] Prepare desk / remote setup-th instructions
 
 ### Day 1
 | Time | Activity | With |
 |------|----------|------|
 | 9:00 | Welcome and orientation | Manager |
-| 10:00 | IT setup and tool walkthrough | IT / Buddy |
+| 10:00 | IT setup and tool walkthrough | IT / Buddy-th |
 | 11:00 | Team introductions | Team |
 | 12:00 | Welcome lunch | Manager + Team |
 | 1:30 | Company overview and values | Manager |
-| 3:00 | Role expectations and 30/60/90 plan | Manager |
+| 3:00 | Role expectations and 30/60/90 plan | Manager-th |
 | 4:00 | Free time to explore tools and docs | Self |
 
 ### Week 1

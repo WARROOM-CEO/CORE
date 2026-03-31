@@ -1,8 +1,9 @@
 {
   "name": "data",
   "version": "1.1.0",
-  "description": "เขียน SQL, explore datasets และสร้าง insights ได้เร็วขึ้น สร้าง visualizations และ dashboards แปลงข้อมูล raw ให้เป็นเรื่องราวที่ชัดเจนสำหรับผู้มีส่วนได้ส่วนเสีย",
+  "description": "เขียนคำสั่ง SQL, สำรวจชุดข้อมูล และสร้างข้อมูลเชิงลึกได้เร็วขึ้น สร้างภาพแสดงผลและแผงควบคุม แปลงข้อมูลดิบให้เป็นเรื่องราวที่ชัดเจนสำหรับผู้มีส่วนได้ส่วนเสีย",
   "author": {
-    "name": "Anthropic"
+    "name": "WARROOM-CEO",
+    "email": "poramate@minsiri.com"
   }
 }

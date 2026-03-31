@@ -1,6 +1,6 @@
 ---
-name: sox-testing
-description: สร้าง SOX sample selections, testing workpapers และ control assessments ใช้เมื่อวางแผน SOX 404 testing รายไตรมาส/รายปี, เลือก sample สำหรับ control (revenue, P2P, ITGC, close), สร้าง testing workpaper template หรือประเมินและจำแนก control deficiency
+name: sox-testing-th
+description: สร้าง SOX sample selections, testing workpapers และ control assessments ใช้เมื่อวางแผน SOX 404 testing รายไตรมาส/รายปี, เลือก sample สำหรับ control (revenue, P2P, ITGC, close), สร้าง testing workpaper template หรือประเมินและจำแนก control-th deficiency
 argument-hint: "<control area> [period]"
 ---
 

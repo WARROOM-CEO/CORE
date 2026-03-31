@@ -1,12 +1,12 @@
 ---
-name: triage-nda
+name: triage-nda-th
 description: คัดกรอง NDA ที่เข้ามาอย่างรวดเร็วและจำแนกเป็น GREEN (อนุมัติมาตรฐาน), YELLOW (ทบทวนโดย counsel) หรือ RED (ต้องตรวจสอบ legal อย่างสมบูรณ์) ใช้เมื่อ NDA ใหม่เข้ามาจาก sales หรือ BD เมื่อคัดกรองหา non-solicit, non-compete ที่ซ่อนอยู่ หรือ carveout ที่หายไป หรือเมื่อตัดสินใจว่า NDA สามารถ sign ได้ภายใต้ delegation มาตรฐานหรือไม่
 argument-hint: "<NDA file or text>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /triage-nda -- NDA Pre-Screening
+# /triage-nda -- NDA-th Pre-Screening-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -183,12 +183,12 @@ Output a structured report:
 ```
 ## NDA Triage Report
 
-**Classification**: [GREEN / YELLOW / RED]
+**Classification**: [GREEN / YELLOW /-th RED]
 **Parties**: [party names]
-**Type**: [Mutual / Unilateral (disclosing) / Unilateral (receiving)]
+**Type**: [Mutual / Unilateral (disclosing) / Unilateral-th (receiving)]
 **Term**: [duration]
 **Governing Law**: [jurisdiction]
-**Review Basis**: [Playbook / Default Standards]
+**Review Basis**: [Playbook / Default-th Standards]
 
 ## Screening Results
 

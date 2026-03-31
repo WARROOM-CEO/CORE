@@ -1,12 +1,12 @@
 ---
-name: people-report
+name: people-report-th
 description: สร้างรายงาน headcount, attrition, diversity หรือ org health ใช้เมื่อต้องการ headcount snapshot สำหรับผู้บริหาร วิเคราะห์ turnover trends ตามทีม เตรียม diversity metrics หรือประเมิน span of control และ flight risk ทั่วทั้งองค์กร
 argument-hint: "<report type — headcount, attrition, diversity, org health>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /people-report
+# /people-report-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 

@@ -1,5 +1,5 @@
 ---
-name: data-context-extractor
+name: data-context-extractor-th
 description: >
   สร้างหรือปรับปรุง company-specific data analysis skill โดยดึงความรู้จาก analysts
 
@@ -9,7 +9,7 @@ description: >
 
   ITERATION MODE - Triggers: "Add context about [domain]", "The skill needs more info about [topic]",
   "Update the data skill with [metrics/tables/terminology]", "Improve the [domain] reference"
-  → โหลด skill ที่มีอยู่, ถามคำถาม targeted, เพิ่ม/อัปเดต reference files
+  → โหลด skill ที่มีอยู่, ถามคำถาม targeted, เพิ่ม/อัปเดต reference-th files
 
   ใช้เมื่อ data analysts ต้องการให้ Claude เข้าใจ data warehouse, terminology, metrics definitions และ query patterns เฉพาะขององค์กร
 ---

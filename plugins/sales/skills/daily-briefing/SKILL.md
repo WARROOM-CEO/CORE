@@ -1,5 +1,5 @@
 ---
-name: daily-briefing
+name: daily-briefing-th
 description: เริ่มวันด้วยสรุป sales ที่จัดลำดับความสำคัญแล้ว ใช้แบบ standalone เมื่อบอกการประชุมและลำดับความสำคัญ หรือเชื่อมต่อ calendar, CRM และอีเมล เรียกใช้ด้วย "สรุปประจำวัน", "daily brief", "วันนี้มีอะไรบ้าง", หรือ "start my day"
 ---
 

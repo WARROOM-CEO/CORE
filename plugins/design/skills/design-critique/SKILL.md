@@ -1,12 +1,12 @@
 ---
-name: design-critique
+name: design-critique-th
 description: รับ structured feedback ด้านการออกแบบในแง่ usability, hierarchy และ consistency เรียกใช้เมื่อ share Figma link หรือ screenshot เพื่อรับ feedback ในทุก stage ตั้งแต่ exploration ถึง final polish
 argument-hint: "<Figma URL, screenshot, or description>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /design-critique
+# /design-critique-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -77,7 +77,7 @@ If a Figma URL is provided, pull the design from Figma. If a file is referenced,
 ### Usability
 | Finding | Severity | Recommendation |
 |---------|----------|----------------|
-| [Issue] | 🔴 Critical / 🟡 Moderate / 🟢 Minor | [Fix] |
+| [Issue] | 🔴 Critical / 🟡 Moderate / 🟢 Minor | [Fix]-th |
 
 ### Visual Hierarchy
 - **What draws the eye first**: [Element] — [Is this correct?]

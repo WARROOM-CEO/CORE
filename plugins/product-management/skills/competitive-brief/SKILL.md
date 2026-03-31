@@ -1,5 +1,5 @@
 ---
-name: competitive-brief
+name: competitive-brief-th
 description: สร้าง competitive analysis brief สำหรับคู่แข่งหรือ feature area ใช้เมื่อต้องการข้อมูลสำหรับ product strategy, sales battle cards, board materials หรือตัดสินใจว่าจะ differentiate หรือ achieve parity
 argument-hint: "<competitor or feature area>"
 ---

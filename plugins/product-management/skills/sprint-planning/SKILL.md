@@ -1,12 +1,12 @@
 ---
-name: sprint-planning
+name: sprint-planning-th
 description: วางแผน sprint — กำหนด scope, ประเมิน capacity, ตั้งเป้าหมาย และร่าง sprint plan ใช้เมื่อเริ่ม sprint ใหม่ ตัดสินใจว่างานไหน P0 vs. stretch หรือจัดการ carryover
 argument-hint: "[sprint name or date range]"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /sprint-planning
+# /sprint-planning-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -62,7 +62,7 @@ Plan a sprint by scoping work, estimating capacity, and setting clear goals.
 ### Sprint Backlog
 | Priority | Item | Estimate | Owner | Dependencies |
 |----------|------|----------|-------|--------------|
-| P0 | [Must ship] | [X] pts | [Person] | [None / Blocked by X] |
+| P0 | [Must ship] | [X] pts | [Person] | [None / Blocked by X]-th |
 | P1 | [Should ship] | [X] pts | [Person] | [None] |
 | P2 | [Stretch] | [X] pts | [Person] | [None] |
 
@@ -84,7 +84,7 @@ Plan a sprint by scoping work, estimating capacity, and setting clear goals.
 |------|-------|
 | [Date] | Sprint start |
 | [Date] | Mid-sprint check-in |
-| [Date] | Sprint end / Demo |
+| [Date] | Sprint end / Demo-th |
 | [Date] | Retro |
 ```
 

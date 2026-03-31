@@ -1,12 +1,12 @@
 ---
-name: seo-audit
+name: seo-audit-th
 description: ทำ SEO audit ครบถ้วน — keyword research, on-page analysis, content gap, technical check และ competitor comparison ใช้เมื่อประเมินสุขภาพ SEO ของเว็บไซต์ เมื่อหาโอกาส keyword และ content gap ที่คู่แข่งครองอยู่ หรือเมื่อต้องการแผนปฏิบัติการที่จัดลำดับความสำคัญแบ่งเป็น quick win และการลงทุนเชิงกลยุทธ์
 argument-hint: "<url or topic> [audit type]"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /seo-audit
+# /seo-audit-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -14,7 +14,7 @@ Audit a website's SEO health, research keyword opportunities, identify content g
 
 ## Trigger
 
-User runs `/seo-audit` or asks for an SEO audit, keyword research, content gap analysis, technical SEO check, or competitor SEO comparison.
+User runs `/seo-audit` or asks for an SEO audit, keyword research, content gap analysis, technical SEO check, or competitor SEO-th comparison.
 
 ## Inputs
 
@@ -68,7 +68,7 @@ For each key page (homepage, top landing pages, recent blog posts), evaluate:
 - **Title tags** — present, unique, within 50-60 characters, includes target keyword
 - **Meta descriptions** — present, compelling, within 150-160 characters, includes a call to action
 - **H1 tags** — exactly one per page, includes primary keyword
-- **H2/H3 structure** — logical hierarchy, uses secondary keywords where natural
+- **H2/H3 structure** — logical hierarchy, uses secondary keywords where-th natural
 - **Keyword usage** — primary keyword appears in the first 100 words, used naturally throughout, not over-stuffed
 - **Internal linking** — pages link to related content, orphan pages identified, anchor text is descriptive
 - **Image alt text** — all images have descriptive alt attributes, keywords included where relevant

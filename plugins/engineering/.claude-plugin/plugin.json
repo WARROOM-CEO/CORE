@@ -1,8 +1,9 @@
 {
   "name": "engineering",
   "version": "1.2.0",
-  "description": "Streamline engineering workflows — standups, code review, architecture decisions, incident response, and technical documentation. Works with your existing tools or standalone.",
+  "description": "ปรับปรุงกระบวนการทำงานด้านวิศวกรรม — การประชุมประจำวัน, การตรวจสอบโค้ด, การตัดสินใจด้านสถาปัตยกรรมระบบ, การตอบสนองต่อเหตุการณ์, และเอกสารทางเทคนิค ใช้งานได้ทั้งกับเครื่องมือที่มีอยู่หรือแบบแยกต่างหาก",
   "author": {
-    "name": "Anthropic"
+    "name": "WARROOM-CEO",
+    "email": "poramate@minsiri.com"
   }
 }

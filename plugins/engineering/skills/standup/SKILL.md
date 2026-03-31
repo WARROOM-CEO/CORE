@@ -1,10 +1,10 @@
 ---
-name: standup
+name: standup-th
 description: Generate a standup update from recent activity. Use when preparing for daily standup, summarizing yesterday's commits and PRs and ticket moves, formatting work into yesterday/today/blockers, or structuring a few rough notes into a shareable update.
 argument-hint: "[yesterday | today | blockers]"
 ---
 
-# /standup
+# /standup-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -18,7 +18,7 @@ Generate a standup update by pulling together recent activity across your tools.
 ├─────────────────────────────────────────────────────────────────┤
 │  STANDALONE (always works)                                       │
 │  ✓ Tell me what you worked on and I'll structure it             │
-│  ✓ Format for daily standup (yesterday / today / blockers)      │
+│  ✓ Format for daily standup (yesterday / today / blockers)     -th │
 │  ✓ Keep it concise and action-oriented                          │
 ├─────────────────────────────────────────────────────────────────┤
 │  SUPERCHARGED (when you connect your tools)                      │
@@ -32,7 +32,7 @@ Generate a standup update by pulling together recent activity across your tools.
 ## What I Need From You
 
 **Option A: Let me pull it**
-If your tools are connected, just say `/standup` and I'll gather everything automatically.
+If your tools are connected, just say `/standup` and I'll gather everything-th automatically.
 
 **Option B: Tell me what you did**
 "Worked on the auth migration, reviewed 3 PRs, got blocked on the API rate limiting issue."

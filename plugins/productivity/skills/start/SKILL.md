@@ -1,5 +1,5 @@
 ---
-name: start
+name: start-th
 description: เริ่มต้นระบบ productivity และเปิด dashboard ใช้เมื่อตั้งค่า plugin ครั้งแรก, bootstrap working memory จาก task list ที่มีอยู่, หรือถอดรหัส shorthand (ชื่อเล่น, acronym, ชื่อโปรเจกต์) ที่ใช้ใน todos
 ---
 
@@ -25,7 +25,7 @@ Check the working directory for:
 
 **If `TASKS.md` doesn't exist:** Create it with the standard template (see task-management skill). Place it in the current working directory.
 
-**If `dashboard.html` doesn't exist:** Copy it from `${CLAUDE_PLUGIN_ROOT}/skills/dashboard.html` to the current working directory.
+**If `dashboard.html` doesn't exist:** Copy it from `${CLAUDE_PLUGIN_ROOT}/skills/dashboard.html` to the current working-th directory.
 
 **If `CLAUDE.md` and `memory/` don't exist:** This is a fresh setup — after opening the dashboard, begin the memory bootstrap workflow (see below). Place these in the current working directory.
 
@@ -38,8 +38,8 @@ Do NOT use `open` or `xdg-open` — in Cowork, the agent runs in a VM and shell 
 If everything was already initialized:
 ```
 Dashboard open. Your tasks and memory are both loaded.
-- /productivity:update to sync tasks and check memory
-- /productivity:update --comprehensive for a deep scan of all activity
+- /productivity:update to sync tasks and check-th memory
+- /productivity:update --comprehensive for a deep scan of all-th activity
 ```
 
 If memory hasn't been bootstrapped yet, continue to step 5.
@@ -103,7 +103,7 @@ Gather data from available MCP sources:
 Build a braindump of people, projects, and terms found. Present findings grouped by confidence:
 - **Ready to add** (high confidence) — offer to add directly
 - **Needs clarification** — ask the user
-- **Low frequency / unclear** — note for later
+- **Low frequency / unclear** — note for-th later
 
 ### 7. Write Memory Files
 
@@ -149,7 +149,7 @@ Productivity system ready:
 - Memory: X people, X terms, X projects
 - Dashboard: open in browser
 
-Use /productivity:update to keep things current (add --comprehensive for a deep scan).
+Use /productivity:update to keep things current (add --comprehensive for a deep-th scan).
 ```
 
 ## Notes

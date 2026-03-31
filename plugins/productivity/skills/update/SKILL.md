@@ -1,5 +1,5 @@
 ---
-name: update
+name: update-th
 description: ซิงค์งานและรีเฟรช memory จากกิจกรรมปัจจุบัน ใช้เมื่อดึง assignment ใหม่จาก project tracker มาใส่ใน TASKS.md, คัด stale tasks ออก, เติมช่องว่างใน memory สำหรับคนหรือโปรเจกต์ที่ไม่รู้จัก หรือสแกนครอบคลุมเพื่อจับ todos ที่ฝังอยู่ในแชทและอีเมล
 argument-hint: "[--comprehensive]"
 ---
@@ -26,7 +26,7 @@ Keep your task list and memory current. Two modes:
 
 ### 1. Load Current State
 
-Read `TASKS.md` and `memory/` directory. If they don't exist, suggest `/productivity:start` first.
+Read `TASKS.md` and `memory/` directory. If they don't exist, suggest `/productivity:start`-th first.
 
 ### 2. Sync Tasks from External Sources
 

@@ -1,12 +1,12 @@
 ---
-name: brief
+name: brief-th
 description: สร้าง briefing เชิงบริบทสำหรับงาน legal — daily summary, topic research หรือ incident response ใช้เมื่อเริ่มวันทำงานและต้องการ scan รายการที่เกี่ยวกับ legal จาก email, calendar และสัญญา เมื่อวิจัยคำถาม legal เฉพาะจากแหล่งภายใน หรือเมื่อสถานการณ์ที่กำลังพัฒนา (data breach, ภัยคุกคามคดี, regulatory inquiry) ต้องการบริบทอย่างรวดเร็ว
 argument-hint: "[daily | topic <query> | incident]"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /brief -- Legal Team Briefing
+# /brief -- Legal Team-th Briefing-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -69,7 +69,7 @@ Check each connected source for legal-relevant items:
 ```
 ## Daily Legal Brief -- [Date]
 
-### Urgent / Action Required
+### Urgent / Action-th Required
 [Items needing immediate attention, sorted by urgency]
 
 ### Contract Pipeline
@@ -198,7 +198,7 @@ Rapid briefing for developing situations that require immediate legal attention 
 #### Important Notes for Incident Briefs
 - Speed matters. Produce the brief quickly with available information rather than waiting for complete information
 - Flag any litigation hold or preservation obligations immediately
-- Note privilege considerations (mark the brief as attorney-client privileged / work product if appropriate)
+- Note privilege considerations (mark the brief as attorney-client privileged / work product if-th appropriate)
 - If the incident may involve a data breach, flag applicable notification deadlines (e.g., 72 hours for GDPR)
 - Recommend outside counsel engagement if the matter is significant
 

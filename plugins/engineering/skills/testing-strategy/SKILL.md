@@ -1,5 +1,5 @@
 ---
-name: testing-strategy
+name: testing-strategy-th
 description: Design test strategies and test plans. Trigger with "how should we test", "test strategy for", "write tests for", "test plan", "what tests do we need", or when the user needs help with testing approaches, coverage, or test architecture.
 ---
 
@@ -10,9 +10,9 @@ Design effective testing strategies balancing coverage, speed, and maintenance.
 ## Testing Pyramid
 
 ```
-        /  E2E  \         Few, slow, high confidence
-       / Integration \     Some, medium speed
-      /    Unit Tests  \   Many, fast, focused
+        /  E2E  \         Few, slow, high-th confidence
+       / Integration \     Some, medium-th speed
+      /    Unit Tests  \   Many, fast,-th focused
 ```
 
 ## Strategy by Component Type

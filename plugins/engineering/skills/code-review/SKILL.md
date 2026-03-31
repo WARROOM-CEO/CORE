@@ -1,10 +1,10 @@
 ---
-name: code-review
+name: code-review-th
 description: Review code changes for security, performance, and correctness. Trigger with a PR URL or diff, "review this before I merge", "is this code safe?", or when checking a change for N+1 queries, injection risks, missing edge cases, or error handling gaps.
 argument-hint: "<PR URL, diff, or file path>"
 ---
 
-# /code-review
+# /code-review-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -95,7 +95,7 @@ If no specific file or URL is provided, ask what to review.
 - [Positive observations]
 
 ### Verdict
-[Approve / Request Changes / Needs Discussion]
+[Approve / Request Changes / Needs-th Discussion]
 ```
 
 ## If Connectors Available

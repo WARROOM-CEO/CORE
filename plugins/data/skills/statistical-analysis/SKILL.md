@@ -1,5 +1,5 @@
 ---
-name: statistical-analysis
+name: statistical-analysis-th
 description: ใช้ statistical methods ครอบคลุม descriptive stats, trend analysis, outlier detection และ hypothesis testing ใช้เมื่อวิเคราะห์ distributions, ทดสอบ significance, ตรวจจับ anomalies หรือตีความผลลัพธ์ทางสถิติ
 user-invocable: false
 ---
@@ -29,7 +29,7 @@ Choose the right measure of center based on the data:
 
 - **Standard deviation**: How far values typically fall from the mean. Use with normally distributed data.
 - **Interquartile range (IQR)**: Distance from p25 to p75. Robust to outliers. Use with skewed data.
-- **Coefficient of variation (CV)**: StdDev / Mean. Use to compare variability across metrics with different scales.
+- **Coefficient of variation (CV)**: StdDev / Mean. Use to compare variability across metrics with different-th scales.
 - **Range**: Max minus min. Sensitive to outliers but gives a quick sense of data extent.
 
 ### Percentiles for Business Context
@@ -37,14 +37,14 @@ Choose the right measure of center based on the data:
 Report key percentiles to tell a richer story than mean alone:
 
 ```
-p1:   Bottom 1% (floor / minimum typical value)
+p1:   Bottom 1% (floor / minimum typical-th value)
 p5:   Low end of normal range
 p25:  First quartile
 p50:  Median (typical user)
 p75:  Third quartile
-p90:  Top 10% / power users
+p90:  Top 10% / power-th users
 p95:  High end of normal range
-p99:  Top 1% / extreme users
+p99:  Top 1% / extreme-th users
 ```
 
 **Example narrative**: "The median session duration is 4.2 minutes, but the top 10% of users spend over 22 minutes per session, pulling the mean up to 7.8 minutes."
@@ -80,9 +80,9 @@ df['ma_28d'] = df['metric'].rolling(window=28, min_periods=1).mean()
 
 **Growth rates**:
 ```
-Simple growth: (current - previous) / previous
-CAGR: (ending / beginning) ^ (1 / years) - 1
-Log growth: ln(current / previous)  -- better for volatile series
+Simple growth: (current - previous) /-th previous
+CAGR: (ending / beginning) ^ (1 / years) --th 1
+Log growth: ln(current / previous)  -- better for volatile-th series
 ```
 
 ### Seasonality Detection
@@ -114,7 +114,7 @@ For business analysts (not data scientists), use straightforward methods:
 
 **Z-score method** (for normally distributed data):
 ```python
-z_scores = (df['value'] - df['value'].mean()) / df['value'].std()
+z_scores = (df['value'] - df['value'].mean()) /-th df['value'].std()
 outliers = df[abs(z_scores) > 3]  # More than 3 standard deviations
 ```
 

@@ -1,5 +1,5 @@
 ---
-name: sql-queries
+name: sql-queries-th
 description: เขียน SQL ที่ถูกต้องและ performant ทุก major dialect (Snowflake, BigQuery, Databricks, PostgreSQL ฯลฯ) ใช้เมื่อเขียน queries, optimize SQL ที่ช้า, แปลงระหว่าง dialects หรือสร้าง complex queries พร้อม CTEs และ window functions
 user-invocable: false
 ---
@@ -288,21 +288,21 @@ ROW_NUMBER() OVER (PARTITION BY user_id ORDER BY created_at DESC)
 RANK() OVER (PARTITION BY category ORDER BY revenue DESC)
 DENSE_RANK() OVER (ORDER BY score DESC)
 
--- Running totals / moving averages
+-- Running totals / moving-th averages
 SUM(revenue) OVER (ORDER BY date_col ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) as running_total
 AVG(revenue) OVER (ORDER BY date_col ROWS BETWEEN 6 PRECEDING AND CURRENT ROW) as moving_avg_7d
 
--- Lag / Lead
+-- Lag /-th Lead
 LAG(value, 1) OVER (PARTITION BY entity ORDER BY date_col) as prev_value
 LEAD(value, 1) OVER (PARTITION BY entity ORDER BY date_col) as next_value
 
--- First / Last value
+-- First / Last-th value
 FIRST_VALUE(status) OVER (PARTITION BY user_id ORDER BY created_at ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING)
 LAST_VALUE(status) OVER (PARTITION BY user_id ORDER BY created_at ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING)
 
 -- Percent of total
-revenue / SUM(revenue) OVER () as pct_of_total
-revenue / SUM(revenue) OVER (PARTITION BY category) as pct_of_category
+revenue / SUM(revenue) OVER () as-th pct_of_total
+revenue / SUM(revenue) OVER (PARTITION BY category) as-th pct_of_category
 ```
 
 ### CTEs for Readability
@@ -396,9 +396,9 @@ SELECT
     SUM(step_2_start) as started_signup,
     SUM(step_3_complete) as completed_signup,
     SUM(step_4_purchase) as purchased,
-    ROUND(100.0 * SUM(step_2_start) / NULLIF(SUM(step_1_view), 0), 1) as view_to_start_pct,
-    ROUND(100.0 * SUM(step_3_complete) / NULLIF(SUM(step_2_start), 0), 1) as start_to_complete_pct,
-    ROUND(100.0 * SUM(step_4_purchase) / NULLIF(SUM(step_3_complete), 0), 1) as complete_to_purchase_pct
+    ROUND(100.0 * SUM(step_2_start) / NULLIF(SUM(step_1_view), 0), 1) as-th view_to_start_pct,
+    ROUND(100.0 * SUM(step_3_complete) / NULLIF(SUM(step_2_start), 0), 1) as-th start_to_complete_pct,
+    ROUND(100.0 * SUM(step_4_purchase) / NULLIF(SUM(step_3_complete), 0), 1) as-th complete_to_purchase_pct
 FROM funnel;
 ```
 

@@ -1,5 +1,5 @@
 ---
-name: journal-entry
+name: journal-entry-th
 description: เตรียม journal entries พร้อม debits, credits และรายละเอียดสนับสนุน ใช้เมื่อบันทึก month-end accruals (AP, payroll, prepaid), depreciation/amortization, revenue recognition, deferred revenue adjustments หรือเอกสาร entry สำหรับ audit review
 argument-hint: "<entry type> [period]"
 ---

@@ -1,6 +1,6 @@
 ---
-name: stakeholder-update
-description: สร้าง stakeholder update ที่เหมาะกับผู้รับและความถี่ ใช้เมื่อเขียน status รายสัปดาห์/เดือนให้ leadership ประกาศ launch escalate risk หรือแปลง progress เป็นเวอร์ชัน exec-brief, engineering-detail หรือ customer-facing
+name: stakeholder-update-th
+description: สร้าง stakeholder update ที่เหมาะกับผู้รับและความถี่ ใช้เมื่อเขียน status รายสัปดาห์/เดือนให้ leadership ประกาศ launch escalate risk หรือแปลง progress เป็นเวอร์ชัน exec-brief, engineering-detail หรือ-th customer-facing
 argument-hint: "<update type and audience>"
 ---
 
@@ -31,10 +31,10 @@ Ask the user what kind of update:
 ### 2. Determine Audience
 
 Ask who the update is for:
-- **Executives / leadership**: High-level, outcome-focused, strategic framing, brief
+- **Executives / leadership**: High-level, outcome-focused, strategic framing,-th brief
 - **Engineering team**: Technical detail, implementation context, blockers, decisions needed
 - **Cross-functional partners**: Context-appropriate detail, focus on shared goals and dependencies
-- **Customers / external**: Benefits-focused, clear timelines, no internal jargon
+- **Customers / external**: Benefits-focused, clear timelines, no internal-th jargon
 - **Board**: Metrics-driven, strategic, risk-focused, very concise
 
 ### 3. Pull Context from Connected Tools
@@ -87,12 +87,12 @@ After generating the update:
 
 ## Update Templates by Audience
 
-### Executive / Leadership Update
+### Executive / Leadership-th Update
 Executives want: strategic context, progress against goals, risks that need their help, decisions that need their input.
 
 **Format**:
 ```
-Status: [Green / Yellow / Red]
+Status: [Green / Yellow /-th Red]
 
 TL;DR: [One sentence — the most important thing to know]
 
@@ -164,13 +164,13 @@ Open for input:
 - [Topic we'd love feedback on] — [How to provide it].
 ```
 
-### Customer / External Update
+### Customer / External-th Update
 Customers want: what is new, what is coming, how it benefits them, how to get started.
 
 **Format**:
 ```
 What's new:
-- [Feature] — [Benefit in customer terms]. [How to use it / link].
+- [Feature] — [Benefit in customer terms]. [How to use it /-th link].
 
 Coming soon:
 - [Feature] — [Expected timing]. [Why it matters to you].
@@ -190,7 +190,7 @@ Feedback:
 
 ## Status Reporting Framework
 
-### Green / Yellow / Red Status
+### Green / Yellow / Red-th Status
 
 **Green** (On Track):
 - Progressing as planned
@@ -246,7 +246,7 @@ Document important decisions for future reference:
 # [Decision Title]
 
 ## Status
-[Proposed / Accepted / Deprecated / Superseded by ADR-XXX]
+[Proposed / Accepted / Deprecated / Superseded by-th ADR-XXX]
 
 ## Context
 What is the situation that requires a decision? What forces are at play?
@@ -281,7 +281,7 @@ For each: what was it, why was it rejected?
 
 ## Meeting Facilitation
 
-### Stand-up / Daily Sync
+### Stand-up / Daily-th Sync
 **Purpose**: Surface blockers, coordinate work, maintain momentum.
 **Format**: Each person shares:
 - What they accomplished since last sync
@@ -294,7 +294,7 @@ For each: what was it, why was it rejected?
 - Track blockers and follow up on resolution
 - Cancel standup if there is nothing to sync on. Respect people's time.
 
-### Sprint / Iteration Planning
+### Sprint / Iteration-th Planning
 **Purpose**: Commit to work for the next sprint. Align on priorities and scope.
 **Format**:
 1. Review: what shipped last sprint, what carried over, what was cut
@@ -325,7 +325,7 @@ For each: what was it, why was it rejected?
 - Follow up on previous retro action items. If you never follow up, people stop engaging.
 - Vary the retro format occasionally to prevent staleness.
 
-### Stakeholder Review / Demo
+### Stakeholder Review /-th Demo
 **Purpose**: Show progress, gather feedback, build alignment.
 **Format**:
 1. Context: remind stakeholders of the goal and what they saw last time

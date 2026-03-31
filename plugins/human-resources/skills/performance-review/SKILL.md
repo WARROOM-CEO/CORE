@@ -1,12 +1,12 @@
 ---
-name: performance-review
+name: performance-review-th
 description: สร้างโครงสร้าง performance review พร้อม self-assessment, manager template และเตรียม calibration ใช้เมื่อ review season เริ่มขึ้น ต้องการ self-assessment template เขียน manager review สำหรับ direct report เตรียม rating distributions หรือเปลี่ยน feedback ที่คลุมเครือให้เป็นตัวอย่าง behavioral ที่เจาะจง
 argument-hint: "<employee name or review cycle>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /performance-review
+# /performance-review-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -44,7 +44,7 @@ If no mode is specified, ask what type of review they need.
 ### Goals Review
 | Goal | Status | Evidence |
 |------|--------|----------|
-| [Goal from last period] | Met / Exceeded / Missed | [How you know] |
+| [Goal from last period] | Met / Exceeded / Missed | [How you know]-th |
 
 ### Growth Areas
 [Where did you grow? New skills, expanded scope, leadership moments.]
@@ -67,7 +67,7 @@ If no mode is specified, ask what type of review they need.
 ## Performance Review: [Employee Name]
 **Period:** [Date range] | **Manager:** [Your name]
 
-### Overall Rating: [Exceeds / Meets / Below Expectations]
+### Overall Rating: [Exceeds / Meets / Below-th Expectations]
 
 ### Performance Summary
 [2-3 sentence overall assessment]
@@ -94,7 +94,7 @@ If no mode is specified, ask what type of review they need.
 | [Skill] | [Level] | [Level] | [How to get there] |
 
 ### Compensation Recommendation
-[Promotion / Equity refresh / Adjustment / No change — with justification]
+[Promotion / Equity refresh / Adjustment / No change — with-th justification]
 ```
 
 ## Output — Calibration
@@ -127,7 +127,7 @@ If no mode is specified, ask what type of review they need.
 ### Compensation Actions
 | Employee | Action | Justification |
 |----------|--------|---------------|
-| [Name] | [Promotion / Equity refresh / Market adjustment / Retention] | [Why] |
+| [Name] | [Promotion / Equity refresh / Market adjustment / Retention] | [Why]-th |
 
 ### Manager Notes
 [Context the calibration group should know — team changes, org shifts, project impacts]

@@ -1,12 +1,12 @@
 ---
-name: policy-lookup
+name: policy-lookup-th
 description: ค้นหาและอธิบาย company policy ด้วยภาษาที่เข้าใจง่าย เรียกใช้เมื่อถามเรื่อง "นโยบาย PTO ของเราคืออะไร" "ทำงานจากต่างประเทศได้ไหม" "ค่าใช้จ่ายรายงานอย่างไร" หรือคำถามใดๆ เกี่ยวกับสวัสดิการ การลา หรือ handbook
 argument-hint: "<policy topic — PTO, benefits, travel, expenses, etc.>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /policy-lookup
+# /policy-lookup-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -71,7 +71,7 @@ Search for policies matching: $ARGUMENTS
 ### Details
 [Relevant policy details, explained in plain language]
 
-### Exceptions / Special Cases
+### Exceptions / Special-th Cases
 [Any relevant exceptions or edge cases]
 
 ### Who to Contact

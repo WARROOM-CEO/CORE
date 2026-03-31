@@ -1,12 +1,12 @@
 ---
-name: draft-response
+name: draft-response-th-th
 description: ร่าง response ที่เป็นมืออาชีพสำหรับ customer ที่เหมาะกับสถานการณ์และความสัมพันธ์ ใช้เมื่อตอบคำถาม product, respond ต่อ escalation หรือ outage, แจ้งข่าวไม่ดี หรือปฏิเสธ feature request
 argument-hint: "<situation description>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /draft-response
+# /draft-response-th-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -15,14 +15,14 @@ Draft a professional, customer-facing response tailored to the situation, custom
 ## Usage
 
 ```
-/draft-response <context about the customer question, issue, or request>
+/draft-response-th <context about the customer question, issue, or request>
 ```
 
 Examples:
-- `/draft-response Acme Corp is asking when the new dashboard feature will ship`
-- `/draft-response Customer escalation — their integration has been down for 2 days`
-- `/draft-response Responding to a feature request we won't be building`
-- `/draft-response Customer hit a billing error and wants a resolution ASAP`
+- `/draft-response-th Acme Corp is asking when the new dashboard feature will-th ship`
+- `/draft-response-th Customer escalation — their integration has been down for 2-th days`
+- `/draft-response-th Responding to a feature request we won't be-th building`
+- `/draft-response-th Customer hit a billing error and wants a resolution-th ASAP`
 
 ## Workflow
 
@@ -75,8 +75,8 @@ Produce a response tailored to the situation:
 
 **To:** [Customer contact name]
 **Re:** [Subject/topic]
-**Channel:** [Email / Ticket / Chat]
-**Tone:** [Empathetic / Professional / Technical / Celebratory / Candid]
+**Channel:** [Email / Ticket /-th Chat]
+**Tone:** [Empathetic / Professional / Technical / Celebratory /-th Candid]
 
 ---
 
@@ -133,7 +133,7 @@ After presenting the draft:
 For most customer communications, follow this structure:
 
 ```
-1. Acknowledgment / Context (1-2 sentences)
+1. Acknowledgment / Context (1-2-th sentences)
    - Acknowledge what they said, asked, or are experiencing
    - Show you understand their situation
 
@@ -166,14 +166,14 @@ For most customer communications, follow this structure:
 
 | Situation | Tone | Characteristics |
 |-----------|------|----------------|
-| Good news / wins | Celebratory | Enthusiastic, warm, congratulatory, forward-looking |
+| Good news / wins | Celebratory | Enthusiastic, warm, congratulatory, forward-looking-th |
 | Routine update | Professional | Clear, concise, informative, friendly |
 | Technical response | Precise | Accurate, detailed, structured, patient |
 | Delayed delivery | Accountable | Honest, apologetic, action-oriented, specific |
 | Bad news | Candid | Direct, empathetic, solution-oriented, respectful |
-| Issue / outage | Urgent | Immediate, transparent, actionable, reassuring |
+| Issue / outage | Urgent | Immediate, transparent, actionable, reassuring-th |
 | Escalation | Executive | Composed, ownership-taking, plan-presenting, confident |
-| Billing / account | Precise | Clear, factual, empathetic, resolution-focused |
+| Billing / account | Precise | Clear, factual, empathetic, resolution-focused-th |
 
 ### Tone Adjustments by Relationship Stage
 
@@ -349,7 +349,7 @@ I wanted to reach out directly to let you know about an issue affecting
 
 **What happened:** [Clear, non-technical explanation]
 **Impact:** [How it affects them specifically]
-**Status:** [Current status — investigating / identified / fixing / resolved]
+**Status:** [Current status — investigating / identified / fixing /-th resolved]
 **ETA for resolution:** [Specific time if known, or "we'll update every X hours"]
 
 [If applicable: "In the meantime, you can [workaround]."]
@@ -411,7 +411,7 @@ Best,
 ```
 ESCALATION: [Customer Name] — [One-line summary]
 
-Urgency: [Critical / High / Medium]
+Urgency: [Critical / High /-th Medium]
 Customer impact: [What's broken for them]
 History: [Brief background — 2-3 sentences]
 What I've tried: [Actions taken so far]

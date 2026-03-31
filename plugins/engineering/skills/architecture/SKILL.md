@@ -1,10 +1,10 @@
 ---
-name: architecture
+name: architecture-th
 description: Create or evaluate an architecture decision record (ADR). Use when choosing between technologies (e.g., Kafka vs SQS), documenting a design decision with trade-offs and consequences, reviewing a system design proposal, or designing a new component from requirements and constraints.
 argument-hint: "<decision or system to design>"
 ---
 
-# /architecture
+# /architecture-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 

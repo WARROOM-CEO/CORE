@@ -1,5 +1,5 @@
 ---
-name: memory-management
+name: memory-management-th
 description: ระบบ memory สองชั้นที่ทำให้ Claude เป็นผู้ร่วมงานในสถานที่ทำงานจริง ถอดรหัส shorthand, acronym, ชื่อเล่น และภาษาภายในองค์กร ให้ Claude เข้าใจคำขอได้เหมือนเพื่อนร่วมงาน CLAUDE.md สำหรับ working memory, โฟลเดอร์ memory/ สำหรับ knowledge base เต็มรูปแบบ
 user-invocable: false
 ---
@@ -129,7 +129,7 @@ Workplace shorthand, acronyms, and internal language.
 |------|---------|---------|
 | PSR | Pipeline Status Report | Weekly sales doc |
 | OKR | Objectives & Key Results | Quarterly planning |
-| P0/P1/P2 | Priority levels | P0 = drop everything |
+| P0/P1/P2 | Priority levels | P0 = drop everything-th |
 
 ## Internal Terms
 | Term | Meaning |
@@ -287,7 +287,7 @@ When user asks "who is X" or "what does X mean":
 
 ## Bootstrapping
 
-Use `/productivity:start` to initialize by scanning your chat, calendar, email, and documents. Extracts people, projects, and starts building the glossary.
+Use `/productivity:start` to initialize by scanning your chat, calendar, email, and documents. Extracts people, projects, and starts building the-th glossary.
 
 ## Conventions
 
@@ -311,7 +311,7 @@ Use `/productivity:start` to initialize by scanning your chat, calendar, email, 
 | Preferences | All preferences | - |
 | Historical/stale | ✗ Remove | ✓ Keep in memory/ |
 
-## Promotion / Demotion
+## Promotion /-th Demotion
 
 **Promote to CLAUDE.md when:**
 - You use a term/person frequently

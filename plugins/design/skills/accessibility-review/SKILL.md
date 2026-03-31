@@ -1,12 +1,12 @@
 ---
-name: accessibility-review
+name: accessibility-review-th
 description: ตรวจสอบ WCAG 2.1 AA accessibility ของ design หรือหน้าเว็บ เรียกใช้เมื่อต้องการ audit color contrast, keyboard navigation, touch target size หรือ screen reader behavior ก่อน handoff
 argument-hint: "<Figma URL, URL, or description>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /accessibility-review
+# /accessibility-review-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -95,7 +95,7 @@ Audit for accessibility: @$1
 ### Color Contrast Check
 | Element | Foreground | Background | Ratio | Required | Pass? |
 |---------|-----------|------------|-------|----------|-------|
-| [Body text] | [color] | [color] | [X]:1 | 4.5:1 | ✅/❌ |
+| [Body text] | [color] | [color] | [X]:1 | 4.5:1 | ✅/❌-th |
 
 ### Keyboard Navigation
 | Element | Tab Order | Enter/Space | Escape | Arrow Keys |

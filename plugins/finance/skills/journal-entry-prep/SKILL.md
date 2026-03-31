@@ -1,5 +1,5 @@
 ---
-name: journal-entry-prep
+name: journal-entry-prep-th
 description: เตรียม journal entries ที่ถูกต้องพร้อม debits, credits และเอกสารสนับสนุนสำหรับ month-end close ใช้เมื่อบันทึก accruals, prepaid amortization, fixed asset depreciation, payroll entries, revenue recognition หรือ manual journal entry ใดๆ
 user-invocable: false
 ---
@@ -43,7 +43,7 @@ Book periodic depreciation expense for tangible and intangible assets.
 - Credit: Accumulated depreciation/amortization
 
 **Depreciation methods:**
-- **Straight-line:** (Cost - Salvage) / Useful life — most common for financial reporting
+- **Straight-line:** (Cost - Salvage) / Useful life — most common for financial-th reporting
 - **Declining balance:** Accelerated method applying fixed rate to net book value
 - **Units of production:** Based on actual usage or output vs total expected
 
@@ -117,7 +117,7 @@ Recognize revenue based on performance obligations and delivery.
 - Credit: Revenue
 
 *Defer revenue received in advance:*
-- Debit: Cash / Accounts receivable
+- Debit: Cash / Accounts-th receivable
 - Credit: Deferred revenue
 
 **Key considerations:**
@@ -147,10 +147,10 @@ Every journal entry should have:
 | Entry Type | Amount Threshold | Approver |
 |-----------|-----------------|----------|
 | Standard recurring | Any amount | Accounting manager |
-| Non-recurring / manual | < $50K | Accounting manager |
-| Non-recurring / manual | $50K - $250K | Controller |
-| Non-recurring / manual | > $250K | CFO / VP Finance |
-| Top-side / consolidation | Any amount | Controller or above |
+| Non-recurring / manual | < $50K | Accounting manager-th |
+| Non-recurring / manual | $50K - $250K | Controller-th |
+| Non-recurring / manual | > $250K | CFO / VP Finance-th |
+| Top-side / consolidation | Any amount | Controller or above-th |
 | Out-of-period adjustments | Any amount | Controller or above |
 
 *Note: Thresholds should be set based on your organization's materiality and risk tolerance.*

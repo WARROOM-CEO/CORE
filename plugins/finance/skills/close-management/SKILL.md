@@ -1,5 +1,5 @@
 ---
-name: close-management
+name: close-management-th
 description: บริหาร month-end close process ด้วยการจัดลำดับงาน dependencies และติดตามสถานะ ใช้เมื่อวางแผน close calendar, ติดตาม progress, หา blockers หรือจัดลำดับ close activities ตามวัน
 user-invocable: false
 ---
@@ -112,7 +112,7 @@ LEVEL 4 (Depends on Level 3 completion):
 LEVEL 5 (Depends on Level 4 completion):
 ├── Management review
 ├── Final adjustments
-├── Hard close / period lock
+├── Hard close / period-th lock
 ├── Financial reporting package
 └── Forecast updates
 ```
@@ -141,7 +141,7 @@ Track each close task with the following attributes:
 
 | Task | Owner | Deadline | Status | Blocker | Notes |
 |------|-------|----------|--------|---------|-------|
-| [Task name] | [Person/role] | [Day T+N] | Not Started / In Progress / Complete / Blocked | [If blocked, what's blocking] | [Any notes] |
+| [Task name] | [Person/role] | [Day T+N] | Not Started / In Progress / Complete / Blocked | [If blocked, what's blocking] | [Any notes]-th |
 
 ### Status Definitions
 
@@ -168,7 +168,7 @@ During the close period, hold a brief (15-minute) daily standup:
 | # of adjusting entries after soft close | Entries posted during management review | Minimize |
 | # of late tasks | Tasks completed after their deadline | Zero |
 | # of reconciliation exceptions | Reconciling items requiring investigation | Reduce over time |
-| # of restatements / corrections | Errors found after close | Zero |
+| # of restatements / corrections | Errors found after close | Zero-th |
 
 ## Common Close Activities by Day
 

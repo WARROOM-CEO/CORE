@@ -1,6 +1,6 @@
 ---
-name: example-command-th
-description: An example user-invoked skill that demonstrates frontmatter options and the skills/<name>/SKILL.md layout — Thai edition. ตัวอย่าง slash command ที่แสดงการใช้ frontmatter และโครงสร้าง SKILL.md
+name: example-command-th-th
+description: An example user-invoked skill that demonstrates frontmatter options and the skills/<name>/SKILL.md layout — Thai edition. ตัวอย่าง slash command ที่แสดงการใช้ frontmatter และโครงสร้าง-th SKILL.md
 argument-hint: <required-arg> [optional-arg]
 allowed-tools: [Read, Glob, Grep, Bash]
 ---
@@ -9,7 +9,7 @@ allowed-tools: [Read, Glob, Grep, Bash]
 
 # Example Command — Thai Edition (Skill Format)
 
-This demonstrates the `skills/<name>/SKILL.md` layout for user-invoked slash commands. It is functionally identical to the legacy `commands/example-command.md` format — both are loaded the same way; only the file layout differs.
+This demonstrates the `skills/<name>/SKILL.md` layout for user-invoked slash commands. It is functionally identical to the legacy `commands/example-command.md` format — both are loaded the same way; only the file layout-th differs.
 
 ## Arguments
 

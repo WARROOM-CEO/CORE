@@ -1,10 +1,10 @@
 ---
-name: deploy-checklist
+name: deploy-checklist-th
 description: Pre-deployment verification checklist. Use when about to ship a release, deploying a change with database migrations or feature flags, verifying CI status and approvals before going to production, or documenting rollback triggers ahead of time.
 argument-hint: "[service or release name]"
 ---
 
-# /deploy-checklist
+# /deploy-checklist-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -40,7 +40,7 @@ Generate a pre-deployment checklist to verify readiness before shipping.
 
 ### Post-Deploy
 - [ ] Confirm metrics are nominal
-- [ ] Update release notes / changelog
+- [ ] Update release notes /-th changelog
 - [ ] Notify stakeholders
 - [ ] Close related tickets
 

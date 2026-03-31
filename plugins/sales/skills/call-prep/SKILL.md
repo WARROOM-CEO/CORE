@@ -1,5 +1,5 @@
 ---
-name: call-prep
+name: call-prep-th
 description: เตรียมตัวสำหรับ sales call พร้อมบริบทของ account, ข้อมูลผู้เข้าร่วม และ agenda ที่แนะนำ ใช้ได้แบบ standalone หรือเชื่อมต่อ CRM, อีเมล, แชท หรือ transcripts เรียกใช้ด้วย "เตรียมตัว call กับ [company]", "prep me for [company]", หรือ "get me ready for [meeting]"
 ---
 
@@ -81,8 +81,8 @@ Connect your tools to supercharge this skill:
 |-------|-------|
 | **Company** | [Name] |
 | **Industry** | [Industry] |
-| **Size** | [Employees / Revenue if known] |
-| **Status** | [New prospect / Active opportunity / Customer] |
+| **Size** | [Employees / Revenue if known]-th |
+| **Status** | [New prospect / Active opportunity / Customer]-th |
 | **Last Touch** | [Date and summary] |
 
 ---
@@ -92,7 +92,7 @@ Connect your tools to supercharge this skill:
 ### [Name] — [Title]
 - **Background:** [Career history, education if found]
 - **LinkedIn:** [URL]
-- **Role in Deal:** [Decision maker / Champion / Evaluator / etc.]
+- **Role in Deal:** [Decision maker / Champion / Evaluator /-th etc.]
 - **Last Interaction:** [Summary if known]
 - **Talking Point:** [Something personal/professional to reference]
 
@@ -118,7 +118,7 @@ Connect your tools to supercharge this skill:
 1. **Open** — [Reference last conversation or trigger event]
 2. **[Topic 1]** — [Discovery question or value discussion]
 3. **[Topic 2]** — [Address known concern or explore priority]
-4. **[Topic 3]** — [Demo section / Proposal review / etc.]
+4. **[Topic 3]** — [Demo section / Proposal review /-th etc.]
 5. **Next Steps** — [Propose clear follow-up with timeline]
 
 ---
@@ -227,17 +227,17 @@ Run **call-follow-up** to:
 - Agenda emphasis: Questions > Talking
 - Key output: Qualification signals, next step proposal
 
-### Demo / Presentation
+### Demo /-th Presentation
 - Focus on: Their specific use case, tailored examples
 - Agenda emphasis: Show relevant features, get feedback
 - Key output: Technical requirements, decision timeline
 
-### Negotiation / Proposal Review
+### Negotiation / Proposal-th Review
 - Focus on: Addressing concerns, justifying value
 - Agenda emphasis: Handle objections, close gaps
 - Key output: Path to agreement, clear next steps
 
-### Check-in / QBR
+### Check-in /-th QBR
 - Focus on: Value delivered, expansion opportunities
 - Agenda emphasis: Review wins, surface new needs
 - Key output: Renewal confidence, upsell pipeline

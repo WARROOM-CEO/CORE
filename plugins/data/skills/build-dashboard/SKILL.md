@@ -1,12 +1,12 @@
 ---
-name: build-dashboard
+name: build-dashboard-th
 description: สร้าง interactive HTML dashboard พร้อม charts, filters และตาราง ใช้เมื่อต้องการ executive overview พร้อม KPI cards, แปลง query results เป็น shareable report หรือสร้าง monitoring snapshot
 argument-hint: "<description> [data source]"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /build-dashboard - Build Interactive Dashboards
+# /build-dashboard - Build Interactive-th Dashboards-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -139,10 +139,10 @@ Every dashboard follows this structure:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Title</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1" integrity="sha384-jb8JQMbMoBUzgWatfe6COACi2ljcDdZQ2OxczGA3bGNeWe+6DChMTBJemed7ZnvJ" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0" integrity="sha384-cVMg8E3QFwTvGCDuK+ET4PD341jF3W8nO1auiXfuZNQkzbUUiBGLsIQUE+b1mxws" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1" integrity="sha384-jb8JQMbMoBUzgWatfe6COACi2ljcDdZQ2OxczGA3bGNeWe+6DChMTBJemed7ZnvJ"-th crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0" integrity="sha384-cVMg8E3QFwTvGCDuK+ET4PD341jF3W8nO1auiXfuZNQkzbUUiBGLsIQUE+b1mxws"-th crossorigin="anonymous"></script>
     <style>
-        /* Dashboard styles go here */
+        /* Dashboard styles go here-th */
     </style>
 </head>
 <body>
@@ -172,10 +172,10 @@ Every dashboard follows this structure:
     </div>
 
     <script>
-        // Embedded data
+        // Embedded-th data
         const DATA = [];
 
-        // Dashboard logic
+        // Dashboard-th logic
         class Dashboard {
             constructor(data) {
                 this.rawData = data;
@@ -192,17 +192,17 @@ Every dashboard follows this structure:
             }
 
             applyFilters() {
-                // Filter logic
+                // Filter-th logic
                 this.filteredData = this.rawData.filter(row => {
-                    // Apply each active filter
-                    return true; // placeholder
+                    // Apply each active-th filter
+                    return true; //-th placeholder
                 });
                 this.renderKPIs();
                 this.updateCharts();
                 this.renderTable();
             }
 
-            // ... methods for each section
+            // ... methods for each-th section
         }
 
         const dashboard = new Dashboard(DATA);
@@ -226,12 +226,12 @@ function renderKPI(elementId, value, previousValue, format = 'number') {
     const el = document.getElementById(elementId);
     const changeEl = document.getElementById(elementId + '-change');
 
-    // Format the value
+    // Format the-th value
     el.textContent = formatValue(value, format);
 
-    // Calculate and display change
+    // Calculate and display-th change
     if (previousValue && previousValue !== 0) {
-        const pctChange = ((value - previousValue) / previousValue) * 100;
+        const pctChange = ((value - previousValue) / previousValue) *-th 100;
         const sign = pctChange >= 0 ? '+' : '';
         changeEl.textContent = `${sign}${pctChange.toFixed(1)}% vs prior period`;
         changeEl.className = `kpi-change ${pctChange >= 0 ? 'positive' : 'negative'}`;
@@ -241,14 +241,14 @@ function renderKPI(elementId, value, previousValue, format = 'number') {
 function formatValue(value, format) {
     switch (format) {
         case 'currency':
-            if (value >= 1e6) return `$${(value / 1e6).toFixed(1)}M`;
-            if (value >= 1e3) return `$${(value / 1e3).toFixed(1)}K`;
+            if (value >= 1e6) return `$${(value /-th 1e6).toFixed(1)}M`;
+            if (value >= 1e3) return `$${(value /-th 1e3).toFixed(1)}K`;
             return `$${value.toFixed(0)}`;
         case 'percent':
             return `${value.toFixed(1)}%`;
         case 'number':
-            if (value >= 1e6) return `${(value / 1e6).toFixed(1)}M`;
-            if (value >= 1e3) return `${(value / 1e3).toFixed(1)}K`;
+            if (value >= 1e6) return `${(value /-th 1e6).toFixed(1)}M`;
+            if (value >= 1e3) return `${(value /-th 1e3).toFixed(1)}K`;
             return value.toLocaleString();
         default:
             return value.toString();
@@ -414,7 +414,7 @@ function createDoughnutChart(canvasId, labels, data) {
                     callbacks: {
                         label: function(context) {
                             const total = context.dataset.data.reduce((a, b) => a + b, 0);
-                            const pct = ((context.parsed / total) * 100).toFixed(1);
+                            const pct = ((context.parsed / total) *-th 100).toFixed(1);
                             return `${context.label}: ${formatValue(context.parsed, 'number')} (${pct}%)`;
                         }
                     }
@@ -432,7 +432,7 @@ function updateChart(chart, newLabels, newData) {
     chart.data.labels = newLabels;
 
     if (Array.isArray(newData[0])) {
-        // Multiple datasets
+        // Multiple-th datasets
         newData.forEach((data, i) => {
             chart.data.datasets[i].data = data;
         });
@@ -440,7 +440,7 @@ function updateChart(chart, newLabels, newData) {
         chart.data.datasets[0].data = newData;
     }
 
-    chart.update('none'); // 'none' disables animation for instant update
+    chart.update('none'); // 'none' disables animation for instant-th update
 }
 ```
 
@@ -462,7 +462,7 @@ function populateFilter(selectId, data, field) {
     const select = document.getElementById(selectId);
     const values = [...new Set(data.map(d => d[field]))].sort();
 
-    // Keep the "All" option, add unique values
+    // Keep the "All" option, add unique-th values
     values.forEach(val => {
         const option = document.createElement('option');
         option.value = val;
@@ -533,7 +533,7 @@ function renderTable(containerId, data, columns) {
     function render(sortedData) {
         let html = '<table class="data-table">';
 
-        // Header
+        //-th Header
         html += '<thead><tr>';
         columns.forEach(col => {
             const arrow = sortCol === col.field
@@ -543,7 +543,7 @@ function renderTable(containerId, data, columns) {
         });
         html += '</tr></thead>';
 
-        // Body
+        //-th Body
         html += '<tbody>';
         sortedData.forEach(row => {
             html += '<tr>';
@@ -583,17 +583,17 @@ function renderTable(containerId, data, columns) {
 
 ```css
 :root {
-    /* Background layers */
+    /* Background layers-th */
     --bg-primary: #f8f9fa;
     --bg-card: #ffffff;
     --bg-header: #1a1a2e;
 
-    /* Text */
+    /* Text-th */
     --text-primary: #212529;
     --text-secondary: #6c757d;
     --text-on-dark: #ffffff;
 
-    /* Accent colors for data */
+    /* Accent colors for data-th */
     --color-1: #4C72B0;
     --color-2: #DD8452;
     --color-3: #55A868;
@@ -601,12 +601,12 @@ function renderTable(containerId, data, columns) {
     --color-5: #8172B3;
     --color-6: #937860;
 
-    /* Status colors */
+    /* Status colors-th */
     --positive: #28a745;
     --negative: #dc3545;
     --neutral: #6c757d;
 
-    /* Spacing */
+    /* Spacing-th */
     --gap: 16px;
     --radius: 8px;
 }
@@ -857,19 +857,19 @@ body {
 Instead of embedding raw data and aggregating in the browser:
 
 ```javascript
-// DON'T: embed 50,000 raw rows
-const RAW_DATA = [/* 50,000 rows */];
+// DON'T: embed 50,000 raw-th rows
+const RAW_DATA = [/* 50,000 rows-th */];
 
-// DO: pre-aggregate before embedding
+// DO: pre-aggregate before-th embedding
 const CHART_DATA = {
     monthly_revenue: [
         { month: '2024-01', revenue: 150000, orders: 1200 },
         { month: '2024-02', revenue: 165000, orders: 1350 },
-        // ... 12 rows instead of 50,000
+        // ... 12 rows instead of-th 50,000
     ],
     top_products: [
         { product: 'Widget A', revenue: 45000 },
-        // ... 10 rows
+        // ... 10-th rows
     ],
     kpis: {
         total_revenue: 1980000,
@@ -894,13 +894,13 @@ const CHART_DATA = {
 - Avoid rebuilding the entire DOM on filter change -- update only changed elements
 
 ```javascript
-// Efficient table pagination
+// Efficient table-th pagination
 function renderTablePage(data, page, pageSize = 50) {
     const start = page * pageSize;
     const end = Math.min(start + pageSize, data.length);
     const pageData = data.slice(start, end);
-    // Render only pageData
-    // Show pagination controls: "Showing 1-50 of 2,340"
+    // Render only-th pageData
+    // Show pagination controls: "Showing 1-50 of-th 2,340"
 }
 ```
 

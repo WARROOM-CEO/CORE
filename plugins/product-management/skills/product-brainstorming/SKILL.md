@@ -1,5 +1,5 @@
 ---
-name: product-brainstorming
+name: product-brainstorming-th
 description: คู่คิด PM ที่ challenge assumptions, ถามคำถามยากๆ และผลักดัน ideas ให้ไปไกลขึ้น ช่วย explore problem spaces, generate ideas และ stress-test thinking ก่อนเขียน spec
 ---
 
@@ -113,7 +113,7 @@ Map the path from outcome to experiment.
 
 ```
 Desired Outcome
-├── Opportunity A (user need / pain point)
+├── Opportunity A (user need / pain-th point)
 │   ├── Solution A1
 │   │   ├── Experiment: ...
 │   │   └── Experiment: ...

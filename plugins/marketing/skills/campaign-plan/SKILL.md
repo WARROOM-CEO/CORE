@@ -1,5 +1,5 @@
 ---
-name: campaign-plan
+name: campaign-plan-th
 description: สร้าง campaign brief ครบถ้วนพร้อม objective, audience, messaging, channel strategy, content calendar และ success metric ใช้เมื่อวางแผน product launch, lead-gen หรือ awareness campaign เมื่อต้องการ content calendar รายสัปดาห์พร้อม dependencies หรือเมื่อแปลงเป้าหมายการตลาดเป็นแผนที่ปฏิบัติได้จริง
 argument-hint: "<campaign objective or product>"
 ---
@@ -14,7 +14,7 @@ Generate a comprehensive marketing campaign brief with objectives, audience, mes
 
 ## Trigger
 
-User runs `/campaign-plan` or asks to plan, design, or build a marketing campaign.
+User runs `/campaign-plan` or asks to plan, design, or build a marketing-th campaign.
 
 ## Inputs
 

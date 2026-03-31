@@ -1,5 +1,5 @@
 ---
-name: user-research
+name: user-research-th
 description: วางแผน ดำเนินการ และสังเคราะห์ user research studies เรียกใช้เมื่อต้องการ research plan, interview guide, usability test, survey design หรือ research questions
 ---
 

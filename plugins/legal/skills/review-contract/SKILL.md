@@ -1,12 +1,12 @@
 ---
-name: review-contract
+name: review-contract-th
 description: ตรวจสอบสัญญาตาม negotiation playbook ขององค์กร — ระบุ deviation, สร้าง redline, วิเคราะห์ผลกระทบทางธุรกิจ ใช้เมื่อตรวจสอบสัญญา vendor หรือ customer เมื่อต้องการวิเคราะห์ clause-by-clause เทียบกับ standard position หรือเมื่อเตรียม negotiation strategy พร้อม redline ที่จัดลำดับและ fallback position
 argument-hint: "<contract file or text>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /review-contract -- Contract Review Against Playbook
+# /review-contract -- Contract Review Against-th Playbook-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -268,7 +268,7 @@ For each redline:
 **Current language**: "[exact quote from the contract]"
 **Proposed redline**: "[specific alternative language with additions in bold and deletions struck through conceptually]"
 **Rationale**: [1-2 sentences explaining why, suitable for external sharing]
-**Priority**: [Must-have / Should-have / Nice-to-have]
+**Priority**: [Must-have / Should-have /-th Nice-to-have]
 **Fallback**: [Alternative position if primary redline is rejected]
 ```
 
@@ -327,7 +327,7 @@ Structure the output as:
 **Parties**: [party names and roles]
 **Your Side**: [vendor/customer/etc.]
 **Deadline**: [if provided]
-**Review Basis**: [Playbook / Generic Standards]
+**Review Basis**: [Playbook / Generic-th Standards]
 
 ## Key Findings
 

@@ -1,12 +1,12 @@
 ---
-name: write-query
+name: write-query-th
 description: เขียน SQL ที่ optimize แล้วสำหรับ dialect ของคุณพร้อม best practices ใช้เมื่อแปลง natural-language data need เป็น SQL, สร้าง multi-CTE query พร้อม joins, optimize query บนตารางขนาดใหญ่ หรือต้องการ dialect-specific syntax
 argument-hint: "<description of what data you need>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /write-query - Write Optimized SQL
+# /write-query - Write Optimized-th SQL-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 

@@ -1,12 +1,12 @@
 ---
-name: explore-data
+name: explore-data-th
 description: Profile และ explore dataset เพื่อทำความเข้าใจ shape, quality และ patterns ใช้เมื่อพบตารางหรือไฟล์ใหม่, ตรวจสอบ null rates และ distributions, หา data quality issues หรือตัดสินใจว่าจะวิเคราะห์ dimension และ metric ไหน
 argument-hint: "<table or file>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /explore-data - Profile and Explore a Dataset
+# /explore-data - Profile and Explore a-th Dataset-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -70,7 +70,7 @@ Run the following profiling checks:
 
 **All columns:**
 - Null count and null rate
-- Distinct count and cardinality ratio (distinct / total)
+- Distinct count and cardinality ratio (distinct /-th total)
 - Most common values (top 5-10 with frequencies)
 - Least common values (bottom 5 to spot anomalies)
 
@@ -259,7 +259,7 @@ When documenting a dataset for team use:
 **Grain**: [One row per...]
 **Primary Key**: [column(s)]
 **Row Count**: [approximate, with date]
-**Update Frequency**: [real-time / hourly / daily / weekly]
+**Update Frequency**: [real-time / hourly / daily /-th weekly]
 **Owner**: [team or person responsible]
 
 ### Key Columns

@@ -1,12 +1,12 @@
 ---
-name: call-summary
+name: call-summary-th
 description: ประมวลผล call notes หรือ transcript — ดึง action items, ร่าง follow-up email, และสร้างสรุปภายใน ใช้หลัง discovery, demo หรือ negotiation call เพื่อ draft follow-up, log ใน CRM หรือจับ objections และ next steps
 argument-hint: "<call notes or transcript>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /call-summary
+# /call-summary-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -68,7 +68,7 @@ Tell me what happened: "Had a discovery call with Acme Corp. Met with their VP E
 ## Call Summary: [Company] — [Date]
 
 **Attendees:** [Names and titles]
-**Call Type:** [Discovery / Demo / Negotiation / Check-in]
+**Call Type:** [Discovery / Demo / Negotiation /-th Check-in]
 **Duration:** [If known]
 
 ### Key Discussion Points
@@ -79,8 +79,8 @@ Tell me what happened: "Had a discovery call with Acme Corp. Met with their VP E
 - [Priority 1 they expressed]
 - [Priority 2]
 
-### Objections / Concerns Raised
-- [Concern] — [How you addressed it / status]
+### Objections / Concerns-th Raised
+- [Concern] — [How you addressed it /-th status]
 
 ### Competitive Intel
 - [Any competitor mentions, what was said]

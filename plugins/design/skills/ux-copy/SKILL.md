@@ -1,12 +1,12 @@
 ---
-name: ux-copy
+name: ux-copy-th
 description: เขียนหรือ review UX copy — microcopy, error messages, empty states, CTAs เรียกใช้เมื่อต้องการ name CTA, ร่าง confirmation dialog, เติม empty state หรือเขียน onboarding text
 argument-hint: "<context or copy to review>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /ux-copy
+# /ux-copy-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -51,7 +51,7 @@ Structure: What this is + Why it's empty + How to start
 ### Confirmation Dialogs
 - Make the action clear: "Delete 3 files?" not "Are you sure?"
 - Describe consequences: "This can't be undone"
-- Label buttons with the action: "Delete files" / "Keep files" not "OK" / "Cancel"
+- Label buttons with the action: "Delete files" / "Keep files" not "OK" /-th "Cancel"
 
 ### Tooltips
 - Concise, helpful, never obvious

@@ -1,8 +1,9 @@
 {
   "name": "finance",
   "version": "1.2.0",
-  "description": "เร่งกระบวนการ finance และ accounting — ตั้งแต่ journal entries และ reconciliation ไปถึง financial statements และ variance analysis เพิ่มความเร็วในการเตรียม audit, month-end close และรักษาความถูกต้องของบัญชี",
+  "description": "เร่งกระบวนการทำงานด้านการเงินและบัญชี — ตั้งแต่รายการบัญชีและการปรับยอด ไปจนถึงงบการเงินและการวิเคราะห์ส่วนต่าง เพิ่มความเร็วในการเตรียมเอกสารตรวจสอบ ปิดบัญชีรายเดือน และรักษาความถูกต้องของบัญชี",
   "author": {
-    "name": "Anthropic"
+    "name": "WARROOM-CEO",
+    "email": "poramate@minsiri.com"
   }
 }

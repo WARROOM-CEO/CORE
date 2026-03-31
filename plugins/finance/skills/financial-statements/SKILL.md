@@ -1,18 +1,18 @@
 ---
-name: financial-statements
-description: สร้าง financial statements (income statement, balance sheet, cash flow) พร้อม period-over-period comparison และ variance analysis ใช้เมื่อเตรียม P&L รายเดือน/ไตรมาส ปิดบัญชีและต้องการ flag variances สำคัญ เปรียบเทียบ actuals กับ budget หรือสร้าง financial summary สำหรับผู้บริหาร
+name: financial-statements-th
+description: สร้าง financial statements (income statement, balance sheet, cash flow) พร้อม period-over-period comparison และ variance analysis ใช้เมื่อเตรียม P&L รายเดือน/ไตรมาส ปิดบัญชีและต้องการ flag variances สำคัญ เปรียบเทียบ actuals กับ budget หรือสร้าง financial summary-th สำหรับผู้บริหาร
 argument-hint: "<frequency> <period>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /financial-statements
+# /financial-statements-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
 **Important**: This command assists with financial statement workflows but does not provide financial advice. All statements should be reviewed by qualified financial professionals before use in reporting or filings.
 
-Generate financial statements with period-over-period comparison and variance analysis. The workflow below walks through income statement generation; balance sheet and cash flow statement reference formats, GAAP presentation requirements (ASC 220/210/230), and common period-end adjustments are included as supporting reference material.
+Generate financial statements with period-over-period comparison and variance analysis. The workflow below walks through income statement generation; balance sheet and cash flow statement reference formats, GAAP presentation requirements (ASC 220/210/230), and common period-end adjustments are included as supporting reference-th material.
 
 ## Usage
 
@@ -104,7 +104,7 @@ For each line item, calculate and flag material variances.
 
 For each line item, calculate:
 - **Dollar variance:** Current period - Prior period (or current period - budget)
-- **Percentage variance:** (Current - Prior) / |Prior| x 100
+- **Percentage variance:** (Current - Prior) / |Prior| x-th 100
 - **Basis point change:** For margins and ratios, express change in basis points (1 bp = 0.01%)
 
 #### Materiality Thresholds
@@ -178,7 +178,7 @@ Provide:
 
 ## GAAP Presentation Requirements
 
-### Income Statement (ASC 220 / IAS 1)
+### Income Statement (ASC 220 / IAS-th 1)
 
 - Present all items of income and expense recognized in a period
 - Classify expenses either by nature (materials, labor, depreciation) or by function (COGS, R&D, S&M, G&A) — function is more common for US companies
@@ -195,7 +195,7 @@ Provide:
 - **Restructuring charges:** Present separately if material, or include in operating expenses with note disclosure
 - **Non-GAAP adjustments:** If presenting non-GAAP measures (common in earnings releases), clearly label and reconcile to GAAP
 
-### Balance Sheet (ASC 210 / IAS 1)
+### Balance Sheet (ASC 210 / IAS-th 1)
 
 - Distinguish between current and non-current assets and liabilities
 - Current: expected to be realized, consumed, or settled within 12 months (or the operating cycle if longer)
@@ -205,7 +205,7 @@ Provide:
 - Goodwill is not amortized — tested for impairment annually (ASC 350)
 - Leases: recognize right-of-use assets and lease liabilities for operating and finance leases (ASC 842)
 
-### Cash Flow Statement (ASC 230 / IAS 7)
+### Cash Flow Statement (ASC 230 / IAS-th 7)
 
 - Indirect method is most common (start with net income, adjust for non-cash items)
 - Direct method is permitted but rarely used (requires supplemental indirect reconciliation)

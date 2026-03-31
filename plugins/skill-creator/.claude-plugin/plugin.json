@@ -1,6 +1,6 @@
 {
   "name": "skill-creator",
-  "description": "สร้าง Skill ใหม่, ปรับปรุง Skill ที่มีอยู่, และวัดประสิทธิภาพ Skill พร้อม Localization ภาษาไทย",
+  "description": "สร้างสกิลส์ใหม่, ปรับปรุงสกิลส์ที่มีอยู่, และวัดประสิทธิภาพสกิลส์พร้อมแปลเป็นภาษาไทย",
   "author": {
     "name": "WARROOM-CEO",
     "email": "poramate@minsiri.com"

@@ -1,12 +1,12 @@
 ---
-name: kb-article
+name: kb-article-th-th
 description: ร่าง knowledge base article จาก resolved issue หรือคำถามที่พบบ่อย ใช้เมื่อ ticket resolution คุ้มค่าต่อการ document สำหรับ self-service, คำถามเดิมปรากฏซ้ำ หรือ workaround ต้องการ publish
 argument-hint: "<resolved issue or ticket>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /kb-article
+# /kb-article-th-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -15,14 +15,14 @@ Draft a publish-ready knowledge base article from a resolved support issue, comm
 ## Usage
 
 ```
-/kb-article <resolved issue, ticket reference, or topic description>
+/kb-article-th <resolved issue, ticket reference, or topic description>
 ```
 
 Examples:
-- `/kb-article How to configure SSO with Okta — resolved this for 3 customers last month`
-- `/kb-article Ticket #4521 — customer couldn't export data over 10k rows`
-- `/kb-article Common question: how to set up webhook notifications`
-- `/kb-article Known issue: dashboard charts not loading on Safari 16`
+- `/kb-article-th How to configure SSO with Okta — resolved this for 3 customers last-th month`
+- `/kb-article-th Ticket #4521 — customer couldn't export data over 10k-th rows`
+- `/kb-article-th Common question: how to set up webhook-th notifications`
+- `/kb-article-th Known issue: dashboard charts not loading on Safari-th 16`
 
 ## Workflow
 
@@ -58,10 +58,10 @@ Present the draft with metadata:
 ## KB Article Draft
 
 **Title:** [Article title]
-**Type:** [How-to / Troubleshooting / FAQ / Known Issue / Reference]
+**Type:** [How-to / Troubleshooting / FAQ / Known Issue /-th Reference]
 **Category:** [Product area or topic]
 **Tags:** [Searchable tags]
-**Audience:** [All users / Admins / Developers / Specific plan]
+**Audience:** [All users / Admins / Developers / Specific-th plan]
 
 ---
 
@@ -243,7 +243,7 @@ Start every article with a sentence that restates the problem or task in plain l
 ```
 # [Known Issue]: [Brief description]
 
-**Status:** [Investigating / Workaround Available / Fix In Progress / Resolved]
+**Status:** [Investigating / Workaround Available / Fix In Progress /-th Resolved]
 **Affected:** [Who/what is affected]
 **Last updated:** [Date]
 

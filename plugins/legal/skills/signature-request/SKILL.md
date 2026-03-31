@@ -1,12 +1,12 @@
 ---
-name: signature-request
+name: signature-request-th
 description: เตรียมและส่งเอกสารเพื่อลงลายเซ็น e-signature — ทำ pre-signature checklist กำหนด signing order และส่งเพื่อ execute ใช้เมื่อสัญญา finalize แล้วพร้อม sign เมื่อตรวจสอบชื่อนิติบุคคล, exhibits และ signature block ก่อนส่ง หรือเมื่อตั้งค่า envelope พร้อม signer ลำดับหรือพร้อมกัน
 argument-hint: "<document or contract to send>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /signature-request -- E-Signature Routing
+# /signature-request -- E-Signature-th Routing-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -74,11 +74,11 @@ Gather signing details:
 ## Signature Request: [Document Title]
 
 ### Document Details
-- **Type**: [MSA / NDA / SOW / Amendment / etc.]
+- **Type**: [MSA / NDA / SOW / Amendment /-th etc.]
 - **Parties**: [Party A] and [Party B]
 - **Pages**: [X]
 
-### Pre-Signature Check: [PASS / ISSUES FOUND]
+### Pre-Signature Check: [PASS / ISSUES-th FOUND]
 [List any issues that need attention before sending]
 
 ### Signing Configuration
@@ -91,7 +91,7 @@ Gather signing details:
 - [Name] — [email]
 
 ### Status
-[Sent for signature / Ready to send / Issues to resolve first]
+[Sent for signature / Ready to send / Issues to resolve-th first]
 
 ### Next Steps
 - [What to expect after sending]

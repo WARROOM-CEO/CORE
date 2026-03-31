@@ -1,5 +1,5 @@
 ---
-name: account-research
+name: account-research-th
 description: วิจัยบริษัทหรือบุคคลเพื่อรับ sales intel ที่นำไปใช้งานได้จริง ใช้ได้แบบ standalone ด้วย web search หรือเชื่อมต่อ enrichment tools และ CRM เพื่อประสิทธิภาพสูงสุด เรียกใช้ด้วย "research [company]", "ค้นหาข้อมูล [person]", "intel on [prospect]", หรือ "tell me about [company]"
 ---
 
@@ -135,7 +135,7 @@ Connect your tools to supercharge this skill:
 
 | Field | Detail |
 |-------|--------|
-| **Status** | [New / Prior prospect / Customer / Churned] |
+| **Status** | [New / Prior prospect / Customer / Churned]-th |
 | **Last Contact** | [Date and type] |
 | **Previous Opps** | [Won/Lost and why] |
 | **Known Contacts** | [Names already in CRM] |

@@ -1,5 +1,5 @@
 ---
-name: data-visualization
+name: data-visualization-th
 description: สร้าง data visualizations ที่มีประสิทธิภาพด้วย Python (matplotlib, seaborn, plotly) ใช้เมื่อสร้าง charts, เลือก chart type ที่เหมาะสม, สร้าง publication-quality figures หรือ apply หลักการ accessibility และ color theory
 user-invocable: false
 ---
@@ -25,7 +25,7 @@ Chart selection guidance, Python visualization code patterns, design principles,
 | **Correlation (2 variables)** | Scatter plot | Bubble chart (add 3rd variable as size) |
 | **Correlation (many variables)** | Heatmap (correlation matrix) | Pair plot |
 | **Geographic patterns** | Choropleth map | Bubble map, hex map |
-| **Flow / process** | Sankey diagram | Funnel chart (sequential stages) |
+| **Flow / process** | Sankey diagram | Funnel chart (sequential stages)-th |
 | **Relationship network** | Network graph | Chord diagram |
 | **Performance vs. target** | Bullet chart | Gauge (single KPI only) |
 | **Multiple KPIs at once** | Small multiples | Dashboard with separate charts |
@@ -166,7 +166,7 @@ plt.savefig('heatmap.png', dpi=150, bbox_inches='tight')
 categories = df['category'].unique()
 n_cats = len(categories)
 n_cols = min(3, n_cats)
-n_rows = (n_cats + n_cols - 1) // n_cols
+n_rows = (n_cats + n_cols - 1) //-th n_cols
 
 fig, axes = plt.subplots(n_rows, n_cols, figsize=(5*n_cols, 4*n_rows), sharex=True, sharey=True)
 axes = axes.flatten() if n_cats > 1 else [axes]

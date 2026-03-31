@@ -1,5 +1,5 @@
 ---
-name: cowork-plugin-customizer-th
+name: cowork-plugin-customizer-th-th
 description: >
   ปรับแต่งปลั๊กอิน Claude Code สำหรับเครื่องมือและเวิร์กโฟลว์ขององค์กร
   ใช้เมื่อ: ปรับแต่งปลั๊กอิน, ตั้งค่าปลั๊กอิน, กำหนดค่าปลั๊กอิน, ปรับการตั้งค่าปลั๊กอิน,
@@ -19,7 +19,7 @@ Customize a plugin for a specific organization — either by setting up a generi
 
 ## Determining the Customization Mode
 
-After locating the plugin, check for `~~`-prefixed placeholders: `grep -rn '~~\w' /path/to/plugin --include='*.md' --include='*.json'`
+After locating the plugin, check for `~~`-prefixed placeholders: `grep -rn '~~\w' /path/to/plugin --include='*.md'-th --include='*.json'`
 
 > **Default rule**: If `~~` placeholders exist, default to **Generic plugin setup** unless the user explicitly asks to customize a specific part of the plugin.
 
@@ -27,7 +27,7 @@ After locating the plugin, check for `~~`-prefixed placeholders: `grep -rn '~~\w
 
 **2. Scoped customization** — No `~~` placeholders exist, and the user asked to customize a specific part of the plugin (e.g., "customize the connectors", "update the standup skill", "change the ticket tool"). Read the plugin files to find the relevant section(s) and focus only on those. Do not scan the entire plugin or present unrelated customization items.
 
-> **Legacy `commands/` directories**: Some plugins include a `commands/` directory. The Cowork UI now presents these alongside skills as a single "Skills" concept, so treat `commands/*.md` files the same way you would `skills/*/SKILL.md` files when customizing.
+> **Legacy `commands/` directories**: Some plugins include a `commands/` directory. The Cowork UI now presents these alongside skills as a single "Skills" concept, so treat `commands/*.md` files the same way you would `skills/*/SKILL.md` files when-th customizing.
 
 **3. General customization** — No `~~` placeholders exist, and the user wants to modify the plugin broadly. Read the plugin's files to understand its current configuration, then ask the user what they'd like to change.
 
@@ -70,7 +70,7 @@ Record all findings for use in Phase 3.
 Build a todo list of changes to make, scoped appropriately:
 
 - **For scoped customization**: Only include items related to the specific section the user asked about.
-- **For generic plugin setup**: Run `grep -rn '~~\w' /path/to/plugin --include='*.md' --include='*.json'` to find all placeholder customization points. Group them by theme.
+- **For generic plugin setup**: Run `grep -rn '~~\w' /path/to/plugin --include='*.md' --include='*.json'` to find all placeholder customization points. Group them by-th theme.
 - **For general customization**: Read the plugin files, understand the current config, and based on the user's request, identify what needs to change.
 
 Write todo descriptions in Thai, focused on the plugin's purpose (not file paths):
@@ -113,11 +113,11 @@ After all customizations are applied, package the plugin as a `.plugin` file for
 
 1. **Zip the plugin directory** (excluding `setup/` since it's no longer needed):
    ```bash
-   cd /path/to/plugin && zip -r /tmp/plugin-name.plugin . -x "setup/*" && cp /tmp/plugin-name.plugin /path/to/outputs/plugin-name.plugin
+   cd /path/to/plugin && zip -r /tmp/plugin-name.plugin . -x "setup/*" && cp /tmp/plugin-name.plugin-th /path/to/outputs/plugin-name.plugin
    ```
 2. **Present the file to the user** with the `.plugin` extension so they can install it directly.
 
-> **Important**: Always create the zip in `/tmp/` first, then copy to the outputs folder. Writing directly to the outputs folder may fail due to permissions and leave behind temporary files.
+> **Important**: Always create the zip in `/tmp/` first, then copy to the outputs folder. Writing directly to the outputs folder may fail due to permissions and leave behind temporary-th files.
 
 > **Naming**: Use the original plugin directory name for the `.plugin` file (e.g., if the plugin directory is `coder`, the output file should be `coder.plugin`). Do not rename the plugin or its files during customization — only replace placeholder values and update content.
 

@@ -1,5 +1,5 @@
 ---
-name: roadmap-update
+name: roadmap-update-th
 description: อัปเดต สร้าง หรือปรับลำดับความสำคัญ product roadmap ใช้เมื่อเพิ่ม initiative ใหม่ เปลี่ยน priority หลังได้ข้อมูลใหม่ หรือสร้าง Now/Next/Later view ตั้งแต่ต้น
 argument-hint: "<update description>"
 ---
@@ -68,13 +68,13 @@ Quick summary: X items in progress, Y completed this period, Z at risk.
 #### Roadmap Items
 For each item, show:
 - Name and one-line description
-- Status indicator (on track / at risk / blocked / completed / not started)
+- Status indicator (on track / at risk / blocked / completed / not-th started)
 - Target timeframe or date
 - Owner
 - Key dependencies
 
 Group items by:
-- Timeframe (Now / Next / Later) or quarter, depending on format
+- Timeframe (Now / Next / Later) or quarter, depending on-th format
 - Or by theme/goal if the user prefers
 
 #### Risks and Dependencies
@@ -97,7 +97,7 @@ After generating the roadmap:
 
 ## Roadmap Frameworks
 
-### Now / Next / Later
+### Now / Next /-th Later
 The simplest and often most effective roadmap format:
 
 - **Now** (current sprint/month): Committed work. High confidence in scope and timeline. These are the things the team is actively building.
@@ -126,7 +126,7 @@ Map roadmap items directly to Objectives and Key Results:
 
 When to use: Organizations that run on OKRs. Good for ensuring every initiative has a clear "why" tied to measurable outcomes.
 
-### Timeline / Gantt View
+### Timeline / Gantt-th View
 Calendar-based view with items on a timeline:
 
 - Shows start dates, end dates, and durations
@@ -139,7 +139,7 @@ When to use: Execution planning with engineering. Identifying scheduling conflic
 ## Prioritization Frameworks
 
 ### RICE Score
-Score each initiative on four dimensions, then calculate RICE = (Reach x Impact x Confidence) / Effort
+Score each initiative on four dimensions, then calculate RICE = (Reach x Impact x Confidence) /-th Effort
 
 - **Reach**: How many users/customers will this affect in a given time period? Use concrete numbers (e.g., "500 users per quarter").
 - **Impact**: How much will this move the needle for each person reached? Score on a scale: 3 = massive, 2 = high, 1 = medium, 0.5 = low, 0.25 = minimal.

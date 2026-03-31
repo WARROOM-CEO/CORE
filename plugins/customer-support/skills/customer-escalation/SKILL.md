@@ -1,12 +1,12 @@
 ---
-name: customer-escalation
+name: customer-escalation-th-th
 description: จัดทำ escalation ส่งต่อ engineering, product หรือ leadership พร้อม context ครบถ้วน ใช้เมื่อ bug ต้องการความสนใจนอกเหนือ support ปกติ, customer หลายรายรายงานปัญหาเดียวกัน, customer กำลังจะ churn หรือปัญหาค้างเกิน SLA
 argument-hint: "<issue summary> [customer name]"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /customer-escalation
+# /customer-escalation-th-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -15,14 +15,14 @@ Package a support issue into a structured escalation brief for engineering, prod
 ## Usage
 
 ```
-/customer-escalation <issue description> [customer name or account]
+/customer-escalation-th <issue description> [customer name or account]
 ```
 
 Examples:
-- `/customer-escalation API returning 500 errors intermittently for Acme Corp`
-- `/customer-escalation Data export is missing rows — 3 customers reported this week`
-- `/customer-escalation SSO login loop affecting all Enterprise customers`
-- `/customer-escalation Customer threatening to churn over missing audit log feature`
+- `/customer-escalation-th API returning 500 errors intermittently for Acme-th Corp`
+- `/customer-escalation-th Data export is missing rows — 3 customers reported this-th week`
+- `/customer-escalation-th SSO login loop affecting all Enterprise-th customers`
+- `/customer-escalation-th Customer threatening to churn over missing audit log-th feature`
 
 ## Workflow
 
@@ -71,8 +71,8 @@ If the issue is a bug, follow the reproduction step best practices below to docu
 ```
 ## ESCALATION: [One-line summary]
 
-**Severity:** [Critical / High / Medium]
-**Target team:** [Engineering / Product / Security / Leadership]
+**Severity:** [Critical / High /-th Medium]
+**Target team:** [Engineering / Product / Security /-th Leadership]
 **Reported by:** [Your name/team]
 **Date:** [Today's date]
 
@@ -146,7 +146,7 @@ After generating the escalation:
 
 ### L1 → L2 (Support Escalation)
 **From:** Frontline support
-**To:** Senior support / technical support specialists
+**To:** Senior support / technical support-th specialists
 **When:** Issue requires deeper investigation, specialized product knowledge, or advanced troubleshooting
 **What to include:** Ticket summary, steps already tried, customer context
 

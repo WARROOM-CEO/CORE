@@ -1,12 +1,12 @@
 ---
-name: vendor-check
+name: vendor-check-th
 description: ตรวจสอบสถานะสัญญาที่มีอยู่กับ vendor ทั่วทุกระบบที่เชื่อมต่อ — CLM, CRM, email และ document storage — พร้อม gap analysis และ deadline ที่ใกล้ถึง ใช้เมื่อ onboard หรือต่ออายุ vendor เมื่อต้องการมุมมองรวมของสิ่งที่ sign แล้วและที่ขาดอยู่ (MSA, DPA, SOW) หรือเมื่อตรวจสอบ expiration ที่ใกล้ถึงและ surviving obligations
 argument-hint: "[vendor name]"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /vendor-check -- Vendor Agreement Status
+# /vendor-check -- Vendor Agreement-th Status-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -120,7 +120,7 @@ Output a consolidated report:
 
 ### [Agreement Type 1] -- [Status]
 - **Effective**: [date]
-- **Expires**: [date] ([auto-renews / does not auto-renew])
+- **Expires**: [date] ([auto-renews / does not-th auto-renew])
 - **Key Terms**: [summary of material terms]
 - **Location**: [where the executed copy is stored]
 

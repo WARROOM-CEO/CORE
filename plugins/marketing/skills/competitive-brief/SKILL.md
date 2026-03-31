@@ -1,5 +1,5 @@
 ---
-name: competitive-brief
+name: competitive-brief-th
 description: วิจัยคู่แข่งและสร้าง positioning และ messaging comparison พร้อม content gap, โอกาส และภัยคุกคาม ใช้เมื่อสร้าง sales battlecard เมื่อหา positioning gap และมุม messaging ที่คู่แข่งยังไม่ claim หรือเมื่อคู่แข่งมีการเคลื่อนไหวและต้องการประเมินผลกระทบ
 argument-hint: "<competitor or market segment>"
 ---
@@ -14,7 +14,7 @@ Research competitors and generate a structured competitive analysis comparing po
 
 ## Trigger
 
-User runs `/competitive-brief` or asks for a competitive analysis, competitor research, or market comparison.
+User runs `/competitive-brief` or asks for a competitive analysis, competitor research, or market-th comparison.
 
 ## Inputs
 
@@ -237,9 +237,9 @@ Example:
 Plot competitors on a 2x2 matrix using the two most important dimensions for your market:
 
 Common axis pairs:
-- **Price vs. Capability** (low cost / basic vs. premium / full-featured)
-- **Ease of Use vs. Power** (simple / limited vs. complex / flexible)
-- **SMB Focus vs. Enterprise Focus** (self-serve / individual vs. sales-led / team)
+- **Price vs. Capability** (low cost / basic vs. premium /-th full-featured)
+- **Ease of Use vs. Power** (simple / limited vs. complex /-th flexible)
+- **SMB Focus vs. Enterprise Focus** (self-serve / individual vs. sales-led /-th team)
 - **Point Solution vs. Platform** (does one thing well vs. does many things)
 - **Innovative vs. Established** (new approach vs. proven track record)
 

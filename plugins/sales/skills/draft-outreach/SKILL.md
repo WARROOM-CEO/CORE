@@ -1,5 +1,5 @@
 ---
-name: draft-outreach
+name: draft-outreach-th
 description: วิจัย prospect แล้วร่าง outreach ที่ personalize ใช้ web research เป็นค่าเริ่มต้น หรือเชื่อมต่อ enrichment และ CRM เรียกใช้ด้วย "ร่าง outreach ถึง [person/company]", "เขียน cold email ถึง [prospect]", หรือ "ติดต่อ [name]"
 ---
 
@@ -239,14 +239,14 @@ Worth a 15-min call to see if relevant?
 [Signature]
 ```
 
-### Warm Outreach (Have Met / Mutual Connection)
+### Warm Outreach (Have Met / Mutual-th Connection)
 
 ```
 Subject: Following up from [context]
 
 Hi [Name],
 
-[Reference to how you know them / who connected you].
+[Reference to how you know them / who connected-th you].
 
 [Why reaching out now - their trigger].
 
@@ -380,7 +380,7 @@ IF warm intro possible:
 - Specific: "Can I send over a quick demo?"
 
 ## Tone
-- [Professional / Casual / Direct]
+- [Professional / Casual /-th Direct]
 - Industry-specific language: [Yes/No]
 ```
 

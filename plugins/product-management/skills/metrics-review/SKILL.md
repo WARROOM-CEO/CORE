@@ -1,6 +1,6 @@
 ---
-name: metrics-review
-description: วิเคราะห์ product metrics พร้อม trend analysis และ actionable insights ใช้เมื่อ review metrics รายสัปดาห์/เดือน/ไตรมาส สืบสวน spike หรือ drop หรือสร้าง scorecard พร้อม recommended actions
+name: metrics-review-th
+description: วิเคราะห์ product metrics พร้อม trend analysis และ actionable insights ใช้เมื่อ review metrics รายสัปดาห์/เดือน/ไตรมาส สืบสวน spike หรือ drop หรือสร้าง scorecard พร้อม recommended-th actions
 argument-hint: "<time period or metric focus>"
 ---
 
@@ -68,7 +68,7 @@ Table format for quick scanning:
 
 | Metric | Current | Previous | Change | Target | Status |
 |--------|---------|----------|--------|--------|--------|
-| [Metric] | [Value] | [Value] | [+/- %] | [Target] | [On track / At risk / Miss] |
+| [Metric] | [Value] | [Value] | [+/- %] | [Target] | [On track / At risk / Miss]-th |
 
 #### Trend Analysis
 For each metric worth discussing:
@@ -141,7 +141,7 @@ The 5-7 metrics that together paint a complete picture of product health. These 
 - First value moment: when users first experience the core product value
 
 **Engagement**: Are active users getting value?
-- DAU / WAU / MAU: active users at different timeframes
+- DAU / WAU / MAU: active users at different-th timeframes
 - DAU/MAU ratio (stickiness): what fraction of monthly users come back daily
 - Core action frequency: how often users do the thing that matters most
 - Session depth: how much users do per session
@@ -155,8 +155,8 @@ The 5-7 metrics that together paint a complete picture of product health. These 
 
 **Monetization**: Is value translating to revenue?
 - Conversion rate: free to paid (for freemium)
-- MRR / ARR: monthly or annual recurring revenue
-- ARPU / ARPA: average revenue per user or account
+- MRR / ARR: monthly or annual recurring-th revenue
+- ARPU / ARPA: average revenue per user or-th account
 - Expansion revenue: revenue growth from existing customers
 - Net revenue retention: revenue retention including expansion and contraction
 
@@ -177,7 +177,7 @@ Detailed metrics used to investigate changes in L1 metrics:
 
 ## Common Product Metrics
 
-### DAU / WAU / MAU
+### DAU / WAU /-th MAU
 **What they measure**: Unique users who perform a qualifying action in a day, week, or month.
 
 **Key decisions**:
@@ -352,7 +352,7 @@ A good dashboard answers the question "How is the product doing?" at a glance.
 
 **Fourth row**: Recent experiments and launches — active A/B tests, recent feature launches with early metrics.
 
-**Bottom / drill-down**: L2 metrics, segment breakdowns, and detailed time series for investigation.
+**Bottom / drill-down**: L2 metrics, segment breakdowns, and detailed time series for-th investigation.
 
 ### Dashboard Anti-Patterns
 - **Vanity metrics**: Metrics that always go up but do not indicate health (total signups ever, total page views)

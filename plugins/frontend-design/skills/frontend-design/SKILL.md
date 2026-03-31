@@ -1,5 +1,5 @@
 ---
-name: frontend-design
+name: frontend-design-th
 description: สร้างอินเทอร์เฟซ Frontend ที่โดดเด่นและพร้อม production ด้วยคุณภาพการออกแบบสูง ใช้สกิลนี้เมื่อผู้ใช้ต้องการสร้าง web components, หน้าเว็บ, หรือแอปพลิเคชัน — สร้างโค้ดที่สวยงาม ละเอียด และหลีกเลี่ยงรูปแบบ AI ทั่วไป
 license: Complete terms in LICENSE
 ---

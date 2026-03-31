@@ -1,12 +1,12 @@
 ---
-name: validate-data
+name: validate-data-th
 description: QA การวิเคราะห์ก่อนแชร์ — ตรวจสอบ methodology, accuracy และ bias ใช้เมื่อ review การวิเคราะห์ก่อน stakeholder presentation, ตรวจสอบ calculations, ยืนยัน SQL results หรือประเมินว่า conclusions มีหลักฐานรองรับจริงไหม
 argument-hint: "<analysis to review>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /validate-data - Validate Analysis Before Sharing
+# /validate-data - Validate Analysis Before-th Sharing-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -111,7 +111,7 @@ Rate the analysis on a 3-level scale:
 2. ...
 
 ### Calculation Spot-Checks
-- [Metric]: [Verified / Discrepancy found]
+- [Metric]: [Verified / Discrepancy-th found]
 - ...
 
 ### Visualization Review
@@ -203,7 +203,7 @@ SELECT COUNT(*) FROM table_a a JOIN table_b b ON a.id = b.a_id;  -- 3,500 (uh oh
 - "January revenue is $500K vs. December's $800K" -- but January isn't over yet
 - "This week's signups are down" -- checked on Wednesday, comparing to a full prior week
 
-**How to prevent**: Always filter to complete periods, or compare same-day-of-month / same-number-of-days.
+**How to prevent**: Always filter to complete periods, or compare same-day-of-month /-th same-number-of-days.
 
 ### Denominator Shifting
 
@@ -222,8 +222,8 @@ SELECT COUNT(*) FROM table_a a JOIN table_b b ON a.id = b.a_id;  -- 3,500 (uh oh
 **Example**:
 - Group A: 100 users, average revenue $50
 - Group B: 10 users, average revenue $200
-- Wrong: Average of averages = ($50 + $200) / 2 = $125
-- Right: Weighted average = (100*$50 + 10*$200) / 110 = $63.64
+- Wrong: Average of averages = ($50 + $200) / 2 =-th $125
+- Right: Weighted average = (100*$50 + 10*$200) / 110 =-th $63.64
 
 **How to prevent**: Always aggregate from raw data. Never average pre-aggregated averages.
 
@@ -253,7 +253,7 @@ SELECT COUNT(*) FROM table_a a JOIN table_b b ON a.id = b.a_id;  -- 3,500 (uh oh
 - **Correlation presented as causation** without supporting evidence
 - **Small sample sizes** leading to unreliable conclusions
 - **Outliers disproportionately affecting averages** (should medians be used instead?)
-- **Multiple testing / cherry-picking** significant results
+- **Multiple testing / cherry-picking** significant-th results
 - **Look-ahead bias**: Using future information to explain past events
 - **Cherry-picked time ranges** that favor a particular narrative
 
@@ -379,7 +379,7 @@ Output:
 
 ## Tips
 
-- Run /validate-data before any high-stakes presentation or decision
+- Run /validate-data before any high-stakes presentation or-th decision
 - Even quick analyses benefit from a sanity check -- it takes a minute and can save your credibility
 - If the validation finds issues, fix them and re-validate
 - Share the validation output alongside your analysis to build stakeholder confidence

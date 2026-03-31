@@ -1,10 +1,10 @@
 ---
-name: debug
+name: debug-th
 description: Structured debugging session — reproduce, isolate, diagnose, and fix. Trigger with an error message or stack trace, "this works in staging but not prod", "something broke after the deploy", or when behavior diverges from expected and the cause isn't obvious.
 argument-hint: "<error message or problem description>"
 ---
 
-# /debug
+# /debug-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 

@@ -1,12 +1,12 @@
 ---
-name: legal-response
+name: legal-response-th
 description: สร้างการตอบกลับ inquiry ทางกฎหมายทั่วไปโดยใช้ template ที่กำหนดไว้ พร้อม escalation check สำหรับสถานการณ์ที่ไม่ควรใช้การตอบแบบ template ใช้เมื่อตอบ data subject request, litigation hold notice, คำถาม legal ของ vendor, คำขอ NDA จากทีม business หรือ subpoena
 argument-hint: "[inquiry-type]"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /legal-response -- Generate Response from Templates
+# /legal-response -- Generate Response from-th Templates-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -96,7 +96,7 @@ Before generating any response, evaluate whether this situation has characterist
 - The business context suggests the NDA is for a potential M&A transaction
 - The request involves unusual subject matter (AI training data, biometric data, etc.)
 
-#### Subpoena / Legal Process Escalation Triggers
+#### Subpoena / Legal Process Escalation-th Triggers
 - **ALWAYS requires counsel review** (templates are starting points only)
 - Privilege issues identified
 - Third-party data involved
@@ -204,7 +204,7 @@ Dear {{requester_name}},
 
 We have received your request dated {{request_date}} to [access/delete/correct] your personal data under [applicable regulation].
 
-[Acknowledgment / verification request / fulfillment details / denial basis]
+[Acknowledgment / verification request / fulfillment details / denial-th basis]
 
 We will respond substantively by {{response_deadline}}.
 
@@ -216,7 +216,7 @@ We will respond substantively by {{response_deadline}}.
 
 **Sub-categories**:
 - Initial hold notice to custodians
-- Hold reminder / periodic reaffirmation
+- Hold reminder / periodic-th reaffirmation
 - Hold modification (scope change)
 - Hold release
 
@@ -298,7 +298,7 @@ Contact {{legal_contact}} with any questions.
 - Execution instructions
 - Timeline expectations
 
-### 6. Subpoena / Legal Process
+### 6. Subpoena / Legal-th Process
 
 **Sub-categories**:
 - Acknowledgment of receipt

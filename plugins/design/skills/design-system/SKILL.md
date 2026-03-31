@@ -1,12 +1,12 @@
 ---
-name: design-system
+name: design-system-th
 description: Audit, document หรือ extend design system ใช้เมื่อตรวจหา naming inconsistencies, เขียน documentation สำหรับ component variants/states/accessibility หรือออกแบบ pattern ใหม่ที่เข้ากับ system
 argument-hint: "[audit | document | extend] <component or system>"
 ---
 
 > **Language**: All user-facing output — responses, summaries, and any text the user will read — must be written in **Thai (ภาษาไทย)**. Internal logic, file paths, code snippets, and technical values remain in English.
 
-# /design-system
+# /design-system-th
 
 > If you see unfamiliar placeholders or need to check which tools are connected, see [CONNECTORS.md](../../CONNECTORS.md).
 
@@ -76,8 +76,8 @@ Common UI solutions combining components:
 ### Component Completeness
 | Component | States | Variants | Docs | Score |
 |-----------|--------|----------|------|-------|
-| Button | ✅ | ✅ | ⚠️ | 8/10 |
-| Input | ✅ | ⚠️ | ❌ | 5/10 |
+| Button | ✅ | ✅ | ⚠️ | 8/10-th |
+| Input | ✅ | ⚠️ | ❌ | 5/10-th |
 
 ### Priority Actions
 1. [Most impactful improvement]
@@ -99,7 +99,7 @@ Common UI solutions combining components:
 | [Primary] | [Main actions] |
 | [Secondary] | [Supporting actions] |
 
-### Props / Properties
+### Props /-th Properties
 | Property | Type | Default | Description |
 |----------|------|---------|-------------|
 | [prop] | [type] | [default] | [description] |
@@ -142,7 +142,7 @@ Common UI solutions combining components:
 
 ### Proposed Design
 
-#### API / Props
+#### API /-th Props
 | Property | Type | Default | Description |
 |----------|------|---------|-------------|
 | [prop] | [type] | [default] | [description] |

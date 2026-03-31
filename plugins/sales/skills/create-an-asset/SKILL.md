@@ -1,5 +1,5 @@
 ---
-name: create-an-asset
+name: create-an-asset-th
 description: สร้าง sales assets ที่ปรับแต่งตามดีล (landing pages, decks, one-pagers, workflow demos) จากบริบทของดีลคุณ — บอก prospect, กลุ่มผู้ชม และเป้าหมาย แล้วรับ asset ที่พร้อมแชร์กับลูกค้า
 ---
 
@@ -14,7 +14,7 @@ Generate custom sales assets tailored to your prospect, audience, and goals. Sup
 ## Triggers
 
 Invoke this skill when:
-- User says `/create-an-asset` or `/create-an-asset [CompanyName]`
+- User says `/create-an-asset` or `/create-an-asset-th [CompanyName]`
 - User asks to "create an asset", "build a demo", "make a landing page", "mock up a workflow"
 - User needs a customer-facing deliverable for a sales conversation
 
@@ -82,10 +82,10 @@ seller:
 | **Past materials** | "Upload any conversation materials (transcripts, emails, notes, call recordings)" | No |
 
 **Deal stage options:**
-- Intro / First meeting
+- Intro / First-th meeting
 - Discovery
-- Evaluation / Technical review
-- POC / Pilot
+- Evaluation / Technical-th review
+- POC /-th Pilot
 - Negotiation
 - Close
 
@@ -106,14 +106,14 @@ seller:
 - Executive (C-suite, VPs)
 - Technical (Architects, Engineers, Developers)
 - Operations (Ops, IT, Procurement)
-- Mixed / Cross-functional
+- Mixed /-th Cross-functional
 
 **Primary concern options:**
-- ROI / Business impact
-- Technical depth / Architecture
+- ROI / Business-th impact
+- Technical depth /-th Architecture
 - Strategic alignment
-- Risk mitigation / Security
-- Implementation / Timeline
+- Risk mitigation /-th Security
+- Implementation /-th Timeline
 
 ---
 
@@ -127,10 +127,10 @@ seller:
 | **Desired action** | "What should the viewer do after seeing this?" | ✓ Yes |
 
 **Goal options:**
-- Intro / First impression
+- Intro / First-th impression
 - Discovery follow-up
 - Technical deep-dive
-- Executive alignment / Business case
+- Executive alignment / Business-th case
 - POC proposal
 - Deal close
 
@@ -145,13 +145,13 @@ seller:
 | **Interactive landing page** | Multi-tab page with demos, metrics, calculators | Exec alignment, intros, value prop |
 | **Deck-style** | Linear slides, presentation-ready | Formal meetings, large audiences |
 | **One-pager** | Single-scroll executive summary | Leave-behinds, quick summaries |
-| **Workflow / Architecture demo** | Interactive diagram with animated flow | Technical deep-dives, POC demos, integrations |
+| **Workflow / Architecture demo** | Interactive diagram with animated flow | Technical deep-dives, POC demos, integrations-th |
 
 ---
 
 ### Step 0.6: Format-Specific Inputs
 
-#### If "Workflow / Architecture demo" selected:
+#### If "Workflow / Architecture demo"-th selected:
 
 **First, parse from user's description.** Look for:
 - Systems and components mentioned
@@ -249,8 +249,8 @@ Same sections as landing page, formatted as linear slides:
 1. Title slide (Prospect + Seller logos, partnership framing)
 2. Agenda
 3-N. One section per slide (or 2-3 slides for dense sections)
-N+1. Summary / Key takeaways
-N+2. Next steps / CTA
+N+1. Summary / Key-th takeaways
+N+2. Next steps /-th CTA
 N+3. Appendix (optional — detailed specs, pricing, etc.)
 ```
 
@@ -282,7 +282,7 @@ Condense to single-scroll format:
 
 ---
 
-### Workflow / Architecture Demo
+### Workflow / Architecture-th Demo
 
 **Structure based on complexity:**
 
@@ -298,7 +298,7 @@ Condense to single-scroll format:
 2. **Component nodes**: Visual boxes/icons for each system
 3. **Flow arrows**: Animated connections showing data movement
 4. **Step panel**: Sidebar explaining current step in plain language
-5. **Controls**: Play / Pause / Step Forward / Step Back / Reset
+5. **Controls**: Play / Pause / Step Forward / Step Back /-th Reset
 6. **Annotations**: Callouts for key decision points and value-adds
 7. **Data preview**: Sample payloads or transformations at each step
 
@@ -319,7 +319,7 @@ All content should:
 
 ### Section Templates
 
-#### Hero / Intro
+#### Hero /-th Intro
 ```
 Headline: "[Prospect's Goal] with [Seller's Product]"
 Subhead: Tie to their stated priority or top industry challenge
@@ -340,10 +340,10 @@ For each pain point:
 ├── The challenge (in their words)
 ├── How [Product] addresses it
 ├── Proof point or example
-└── Outcome / benefit
+└── Outcome /-th benefit
 ```
 
-#### Use Cases / Demos
+#### Use Cases /-th Demos
 ```
 3-5 relevant use cases:
 ├── Visual mockup or interactive demo
@@ -352,7 +352,7 @@ For each pain point:
 └── Relevant to their industry/role
 ```
 
-#### ROI / Business Case
+#### ROI / Business-th Case
 ```
 Interactive calculator with:
 ├── Inputs relevant to their business (from research)
@@ -360,14 +360,14 @@ Interactive calculator with:
 │   ├── Current costs or time spent
 │   └── Expected improvement %
 ├── Outputs:
-│   ├── Annual value / savings
+│   ├── Annual value /-th savings
 │   ├── Cost of solution
 │   ├── Net ROI
 │   └── Payback period
 └── Assumptions clearly stated (editable)
 ```
 
-#### Why Us / Differentiators
+#### Why Us /-th Differentiators
 ```
 ├── Differentiators vs. alternatives they might consider
 ├── Trust, security, compliance positioning
@@ -375,7 +375,7 @@ Interactive calculator with:
 └── Customer proof points (logos, quotes, case studies)
 ```
 
-#### Next Steps / CTA
+#### Next Steps /-th CTA
 ```
 ├── Clear action aligned to Purpose (c)
 ├── Specific next step (not vague "let's chat")
@@ -465,28 +465,28 @@ margin performance...'"
 
 ```css
 :root {
-    /* === Prospect Brand (Primary) === */
+    /* === Prospect Brand (Primary) ===-th */
     --brand-primary: #[extracted from research];
     --brand-secondary: #[extracted];
-    --brand-primary-rgb: [r, g, b]; /* For rgba() usage */
+    --brand-primary-rgb: [r, g, b]; /* For rgba() usage-th */
 
-    /* === Dark Theme Base === */
+    /* === Dark Theme Base ===-th */
     --bg-primary: #0a0d14;
     --bg-elevated: #0f131c;
     --bg-surface: #161b28;
     --bg-hover: #1e2536;
 
-    /* === Text === */
+    /* === Text ===-th */
     --text-primary: #ffffff;
     --text-secondary: rgba(255, 255, 255, 0.7);
     --text-muted: rgba(255, 255, 255, 0.5);
 
-    /* === Accent === */
+    /* === Accent ===-th */
     --accent: var(--brand-primary);
     --accent-hover: var(--brand-secondary);
     --accent-glow: rgba(var(--brand-primary-rgb), 0.3);
 
-    /* === Status === */
+    /* === Status ===-th */
     --success: #10b981;
     --warning: #f59e0b;
     --error: #ef4444;
@@ -549,7 +549,7 @@ small: 0.875rem, font-weight: 500
 }
 
 .node.human {
-    border-color: #f59e0b; /* Warm color for humans */
+    border-color: #f59e0b; /* Warm color for humans-th */
 }
 
 .node.ai {
@@ -579,7 +579,7 @@ small: 0.875rem, font-weight: 500
 .canvas {
     background:
         radial-gradient(circle at center, var(--bg-elevated) 0%, var(--bg-primary) 100%),
-        url("data:image/svg+xml,..."); /* Subtle grid pattern */
+        url("data:image/svg+xml,..."); /* Subtle grid pattern-th */
     overflow: auto;
 }
 ```
@@ -613,7 +613,7 @@ First, show the user what you understood:
 |----------|-----|
 | "Does this match your vision?" | Confirm understanding |
 | "What's the ONE thing this must nail to succeed?" | Focus on priority |
-| "Tone preference? (Bold & confident / Consultative / Technical & precise)" | Style alignment |
+| "Tone preference? (Bold & confident / Consultative / Technical & precise)" | Style alignment-th |
 | "Focused and concise, or comprehensive?" | Scope calibration |
 
 ### Step 5.3: Ask Format-Specific Questions
@@ -634,7 +634,7 @@ First, show the user what you understood:
 - "Any specific proof point or stat to feature?"
 - "Will this be printed or digital?"
 
-#### Workflow / Architecture Demo:
+#### Workflow / Architecture-th Demo:
 - "Let me confirm the components: [list]. Anything missing?"
 - "Here's the flow I understood: [steps]. Correct?"
 - "Should the demo show realistic sample data, or keep it abstract?"
@@ -691,7 +691,7 @@ Following all specifications above:
 ---
 
 **Summary**
-- **Format**: [Interactive Page / Deck / One-Pager / Workflow Demo]
+- **Format**: [Interactive Page / Deck / One-Pager / Workflow-th Demo]
 - **Audience**: [Type and roles]
 - **Purpose**: [Goal] → [Desired action]
 - **Sections/Steps**: [Count and list]
